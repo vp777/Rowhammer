@@ -34,6 +34,6 @@ First build the tool by running:
 
 Then run it by:
 
-	./hp_rh
+	./hprh [-s <buffer_size>] [-o <output_file>] [-c <active_channels>] [-d <dimms>] [-r <ranks_number>] [-m <rank_mirroring>][-t <target_pattern>] [-v <victim_pattern>] [-e <runtime>]
     
 By default, it should be able to identify vulnerable modules in a single channel, single dimm, dual rank configurations.
