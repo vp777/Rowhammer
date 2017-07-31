@@ -1,0 +1,13 @@
+--- hammertime/ramses/translate.c	2017-06-24 12:22:12.370851675 +0100
++++ hammertime-mod/ramses/translate.c	2017-06-24 13:02:35.292225810 +0100
+@@ -32,8 +32,8 @@
+ {
+ 	uint64_t pagemap_entry;
+ 	off_t pagemap_off = (addr >> 12) * sizeof(pagemap_entry);
+-	if (pread(pagemap_fd, &pagemap_entry, sizeof(pagemap_entry), pagemap_off) != sizeof(pagemap_entry)) {
+-		return (physaddr_t)-1;
++	if (pread(pagemap_fd, &pagemap_entry, sizeof(pagemap_entry), pagemap_off) != sizeof(pagemap_entry) || !(pagemap_entry & LS_BITMASK(55))) {
++		return ((addr & ~LS_BITMASK(21))*2) | (addr & LS_BITMASK(21)); //virtually contiguous but most likely not physically
+ 	}
+ 	/* Sanity check that page is in memory */
+ 	if (!BIT(63, pagemap_entry)) {

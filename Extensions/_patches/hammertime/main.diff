@@ -1,0 +1,53 @@
+--- hammertime/tools/profile/main.c	2017-06-24 12:09:00.003315741 +0100
++++ hammertime-mod/tools/profile/main.c	2017-07-13 12:06:54.457310452 +0100
+@@ -39,6 +39,8 @@
+ #include <linux/mman.h>
+ #endif
+ 
++#define HUGE_PAGE_SIZE (1<<21)
++
+ #define STRTOK_BUFSIZE 128
+ 
+ #define V_ERR 0
+@@ -664,6 +666,7 @@
+ 			fprintf(stderr, "%d reads per refresh interval\n", double_cal);
+ 		}
+ 		double_cal *= ctx->calibration_mult;
++		fprintf(stderr, "mem access: %zu\n", double_cal);
+ 	}
+ 
+ 	if (ctx->hammer_opts & HAM_OPT_DRY_RUN) {
+@@ -795,7 +798,7 @@
+ 	struct MemorySystem msys;
+ 
+ 	int mem_pressure = 0;
+-	int mmap_flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_POPULATE;
++	int mmap_flags = MAP_PRIVATE | MAP_ANONYMOUS;
+ 	void *(*pressure_func)(void *) = rand_pressure_thread;
+ 	int gran_override = -1;
+ 	bool autopres = false;
+@@ -889,7 +892,7 @@
+ 					perror("Invalid target distance");
+ 					goto err_usage;
+ 				}
+-				if (ctx.calibration_mult < 0) {
++				if (ctx.target_dist < 0) {//possible typo, previously was ctx.calibration_mult
+ 					fputs("Invalid target distance: value must be greater than or equal to 0\n", stderr);
+ 					goto err_usage;
+ 				}
+@@ -1000,11 +1003,14 @@
+ 	if (VERBOSITY & V_DEBUG) {
+ 		fprintf(stderr, "Allocating buffer (size 0x%lx)\n", bufsize);
+ 	}
+-	buf = mmap(NULL, bufsize, PROT_READ | PROT_WRITE, mmap_flags, -1, 0);
++
++	buf = mmap(NULL, bufsize+HUGE_PAGE_SIZE, PROT_READ | PROT_WRITE, mmap_flags, -1, 0);
+ 	if (buf == MAP_FAILED) {
+ 		perror("Buffer allocation failed");
+ 		return 2;
+ 	}
++	buf = (void *)(((uintptr_t) buf + HUGE_PAGE_SIZE - 1) & ~(HUGE_PAGE_SIZE - 1));
++	memset(buf, 0xff, bufsize);
+ 
+ 	if (VERBOSITY & V_INFO) {
+ 		fputs("Setting up targets... ", stderr);

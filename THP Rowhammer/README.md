@@ -1,4 +1,4 @@
-# Rowhammer Testing Program
+# THP Based Rowhammer Test
 
 Tool for testing the rowhammer bug without requiring root privileges.
 <br>
@@ -24,9 +24,8 @@ It is parametrised and it should run for most of the configurations that are bas
 </pre>
 
 <br>
-<br>
 
-## Using the tool
+## Usage
 
 First build the tool by running:
 

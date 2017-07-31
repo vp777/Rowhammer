@@ -348,7 +348,7 @@ int main(int argc, char *argv[]) {
 		perror("Buffer allocation failed");
 		return -1;
 	}
-		buf = (void *)(((uintptr_t) buf + MASK(21)) & ~MASK(21));
+	buf = (void *)(((uintptr_t) buf + MASK(21)) & ~MASK(21));
 
 	madvise(buf, ho.bufSize, MADV_HUGEPAGE);
 	memset(buf, ho.tfill, ho.bufSize);

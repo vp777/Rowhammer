@@ -1,0 +1,129 @@
+--- rowhammer-test/double_sided_rowhammer.cc	2017-07-13 12:02:17.768303042 +0100
++++ rowhammer-test-mod/double_sided_rowhammer.cc	2017-07-13 12:02:04.600503311 +0100
+@@ -56,7 +56,7 @@
+ uint64_t number_of_seconds_to_hammer = 3600;
+ 
+ // The number of memory reads to try.
+-uint64_t number_of_reads = 1000*1024;
++uint64_t number_of_reads = 1960000;
+ 
+ // Obtain the size of the physical memory of the system.
+ uint64_t GetPhysicalMemorySize() {
+@@ -79,10 +79,12 @@
+   *mapping_size = 
+     static_cast<uint64_t>((static_cast<double>(GetPhysicalMemorySize()) * 
+           fraction_of_physical_memory));
+-
+-  *mapping = mmap(NULL, *mapping_size, PROT_READ | PROT_WRITE,
++  *mapping_size = 1<<25;
++  *mapping = mmap(NULL, *mapping_size+(1<<21), PROT_READ | PROT_WRITE,
+       MAP_POPULATE | MAP_ANONYMOUS | MAP_PRIVATE, -1, 0);
+   assert(*mapping != (void*)-1);
++  
++  *mapping = (void *)(((uintptr_t) *mapping + (1<<21) - 1) & ~((1<<21) - 1));
+ 
+   // Initialize the mapping so that the pages are non-empty.
+   printf("[!] Initializing large memory mapping ...");
+@@ -115,6 +117,23 @@
+   return sum;
+ }
+ 
++uint64_t get_row_index(uint64_t addr, uint64_t presumed_row_size){
++	uint64_t bank, rank, row;
++
++	bank =(addr>>17)&7;
++	bank^=(addr>>13)&7;
++	rank =(addr>>16)&1;
++	row=addr/presumed_row_size;
++	row^=((addr>>20)&1)?6:0; //on-dimm remapping
++
++	return (((rank<<3)|bank)<<16)|row;
++}
++
++void flush(uintptr_t addr, size_t len){
++	for(uintptr_t caddr=addr;caddr<addr+len;caddr+=64)
++		asm volatile ("clflush (%0)\n\t": : "r" (caddr) : "memory");
++}
++
+ typedef uint64_t(HammerFunction)(
+     const std::pair<uint64_t, uint64_t>& first_range,
+     const std::pair<uint64_t, uint64_t>& second_range,
+@@ -139,8 +158,11 @@
+   for (uint64_t offset = 0; offset < memory_mapping_size; offset += 0x1000) {
+     uint8_t* virtual_address = static_cast<uint8_t*>(memory_mapping) + offset;
+     uint64_t page_frame_number = GetPageFrameNumber(pagemap, virtual_address);
+-    uint64_t physical_address = page_frame_number * 0x1000;
+-    uint64_t presumed_row_index = physical_address / presumed_row_size;
++    uint64_t physical_address;
++    uintptr_t va = (uintptr_t) virtual_address - (uintptr_t) memory_mapping;
++    if(!page_frame_number) physical_address=(2*(va&~((1<<21)-1))) | (va&((1<<21)-1));
++    else physical_address = page_frame_number * 0x1000;
++    uint64_t presumed_row_index = get_row_index(physical_address, presumed_row_size);
+     //printf("[!] put va %lx pa %lx into row %ld\n", (uint64_t)virtual_address,
+     //    physical_address, presumed_row_index);
+     if (presumed_row_index > pages_per_row.size()) {
+@@ -154,16 +176,16 @@
+   // We should have some pages for most rows now.
+   for (uint64_t row_index = 0; row_index + 2 < pages_per_row.size(); 
+       ++row_index) {
+-    if ((pages_per_row[row_index].size() != 64) || 
+-        (pages_per_row[row_index+2].size() != 64)) {
+-      printf("[!] Can't hammer row %ld - only got %ld/%ld pages "
+-          "in the rows above/below\n",
+-          row_index+1, pages_per_row[row_index].size(), 
+-          pages_per_row[row_index+2].size());
++    if ((pages_per_row[row_index].size() == 0) || 
++        (pages_per_row[row_index+2].size() == 0)) {
++      //printf("[!] Can't hammer row %ld - only got %ld/%ld pages "
++        //  "in the rows above/below\n",
++          //row_index+1, pages_per_row[row_index].size(), 
++          //pages_per_row[row_index+2].size());
+       continue;
+     } else if (pages_per_row[row_index+1].size() == 0) {
+-      printf("[!] Can't hammer row %ld, got no pages from that row\n", 
+-          row_index+1);
++    //  printf("[!] Can't hammer row %ld, got no pages from that row\n", 
++      //    row_index+1);
+       continue;
+     }
+     printf("[!] Hammering rows %ld/%ld/%ld of %ld (got %ld/%ld/%ld pages)\n", 
+@@ -172,11 +194,18 @@
+         pages_per_row[row_index+2].size());
+     // Iterate over all pages we have for the first row.
+     for (uint8_t* first_row_page : pages_per_row[row_index]) {
++	memset(first_row_page, 0x00, 0x1000);
++    	flush((uintptr_t)first_row_page, 0x1000);
++    }
++    uint8_t* first_row_page=pages_per_row[row_index][0];
++    
+       // Iterate over all pages we have for the second row.
+-      for (uint8_t* second_row_page : pages_per_row[row_index+2]) {
++      //for (uint8_t* second_row_page : pages_per_row[row_index+2]) {
++    uint8_t* second_row_page=pages_per_row[row_index+2][0];
+         // Set all the target pages to 0xFF.
+         for (uint8_t* target_page : pages_per_row[row_index+1]) {
+           memset(target_page, 0xFF, 0x1000);
++	  flush((uintptr_t)target_page, 0x1000);
+         }
+         // Now hammer the two pages we care about.
+         std::pair<uint64_t, uint64_t> first_page_range(
+@@ -204,8 +233,8 @@
+               GetPageFrameNumber(pagemap, second_row_page)*0x1000);
+           total_bitflips += number_of_bitflips_in_target;
+         }
+-      }
+-    }
++      //}
++    //}
+   }
+   return total_bitflips;
+ }
+@@ -215,7 +244,7 @@
+   void* mapping;
+   SetupMapping(&mapping_size, &mapping);
+ 
+-  HammerAllReachablePages(1024*256, mapping, mapping_size,
++  HammerAllReachablePages(1024*128, mapping, mapping_size,
+                           hammer, number_of_reads);
+ }
+ 
