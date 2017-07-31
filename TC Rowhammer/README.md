@@ -30,7 +30,7 @@ Then run it by:
 	./sc_rh [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-q <sample_size>] [-e <run_time>]
     
 ## Remarks
-This tool was tested in both native and virtualized environment and in both cases over 30 bit flips were generated within 30 minutes. Both the host and guest operating system were running Ubuntu 14.04 in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations.
+This tool was tested in both native and virtualized environment and in both cases over 30 bit flips were generated within 30 minutes. Both the host and guest operating system were running Ubuntu 16.04.02 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations.
 
 ## Notes
 The debug information (when enabled) about the DRAM mapping are targetted towards Sandy Bridge microarchitecture CPUs. If there is need for stats on a different microarchitecture, the code can be easily extended by using the implementation here: [hammertime](https://github.com/vusec/hammertime/blob/master/ramses/addr.c) <br>
