@@ -1,0 +1,248 @@
+[0]Testing 7f12a32f4000
+[1]Testing 7f12a32fe000
+++++++++++++++++++++
+(0x7f12a32fe000,0x7f12a39a7000) Found [0x7f12a3545000] bitflip [1107]=0xfe
+---------------------
+[2]Testing 7f12a330f000
+[3]Testing 7f12a3310000
+[4]Testing 7f12a3317000
+[5]Testing 7f12a3318000
+[6]Testing 7f12a331e000
+[7]Testing 7f12a3350000
+[8]Testing 7f12a3357000
+[9]Testing 7f12a335c000
+[10]Testing 7f12a339d000
+[11]Testing 7f12a339e000
+[12]Testing 7f12a339f000
+[13]Testing 7f12a33a0000
+[14]Testing 7f12a33df000
+[15]Testing 7f12a33e0000
+[16]Testing 7f12a33f5000
+[17]Testing 7f12a33f6000
+[18]Testing 7f12a3457000
+[19]Testing 7f12a3458000
+[20]Testing 7f12a345b000
+[21]Testing 7f12a345c000
+[22]Testing 7f12a345d000
+[23]Testing 7f12a345e000
+[24]Testing 7f12a3487000
+[25]Testing 7f12a3488000
+[26]Testing 7f12a348b000
+[27]Testing 7f12a348c000
+[28]Testing 7f12a349d000
+[29]Testing 7f12a349e000
+[30]Testing 7f12a34a1000
+[31]Testing 7f12a34a2000
+[32]Testing 7f12a34ab000
+[33]Testing 7f12a34ac000
+++++++++++++++++++++
+(0x7f12a34ac000,0x7f12a386f000) Found [0x7f12a39e1000] bitflip [3374]=0xbf
+---------------------
+(0x7f12a34ac000,0x7f12a386f000) Found [0x7f12a39e2000] bitflip [882]=0xfd
+(0x7f12a34ac000,0x7f12a386f000) Found [0x7f12a39e2000] bitflip [3266]=0xfe
+(0x7f12a34ac000,0x7f12a386f000) Found [0x7f12a39e2000] bitflip [3649]=0xf7
+---------------------
+++++++++++++++++++++
+(0x7f12a34ac000,0x7f12a3870000) Found [0x7f12a39e2000] bitflip [882]=0xfd
+(0x7f12a34ac000,0x7f12a3870000) Found [0x7f12a39e2000] bitflip [3266]=0xfe
+(0x7f12a34ac000,0x7f12a3870000) Found [0x7f12a39e2000] bitflip [3485]=0xfd
+(0x7f12a34ac000,0x7f12a3870000) Found [0x7f12a39e2000] bitflip [3649]=0xf7
+---------------------
+[34]Testing 7f12a34d5000
+[35]Testing 7f12a34d6000
+[36]Testing 7f12a3545000
+++++++++++++++++++++
+(0x7f12a3545000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [64]=0xfb
+(0x7f12a3545000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [152]=0xf7
+(0x7f12a3545000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [865]=0x7f
+(0x7f12a3545000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [2250]=0xfd
+(0x7f12a3545000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [2571]=0xfb
+(0x7f12a3545000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [3720]=0xbf
+---------------------
+++++++++++++++++++++
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a7000] bitflip [64]=0xfb
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a7000] bitflip [865]=0x7f
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a7000] bitflip [3173]=0x7f
+---------------------
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1050]=0xf7
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1162]=0xfb
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1499]=0xbf
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1646]=0xef
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [2248]=0xfb
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [3099]=0xbf
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [3530]=0xfb
+(0x7f12a3545000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [3663]=0xdf
+---------------------
+[37]Testing 7f12a3546000
+++++++++++++++++++++
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [27]=0xf7
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [152]=0xf7
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [2171]=0xfe
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [2250]=0xfd
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [2571]=0xfb
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a7000] bitflip [3720]=0xbf
+---------------------
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a8000] bitflip [386]=0xf7
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a8000] bitflip [848]=0xbf
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a8000] bitflip [1360]=0xbf
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a8000] bitflip [1938]=0x7f
+(0x7f12a3546000,0x7f12a3971000) Found [0x7f12a39a8000] bitflip [2663]=0xbf
+---------------------
+++++++++++++++++++++
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a7000] bitflip [2171]=0xfe
+---------------------
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [386]=0xf7
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [848]=0xbf
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1050]=0xf7
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1162]=0xfb
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1360]=0xbf
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1499]=0xbf
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [1646]=0xef
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [2248]=0xfb
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [2663]=0xbf
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [2961]=0xbf
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [3099]=0xbf
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [3530]=0xfb
+(0x7f12a3546000,0x7f12a3972000) Found [0x7f12a39a8000] bitflip [3663]=0xdf
+---------------------
+[38]Testing 7f12a354d000
+++++++++++++++++++++
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ab000] bitflip [674]=0xfd
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ab000] bitflip [2758]=0xfd
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ab000] bitflip [3681]=0xfb
+---------------------
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [1054]=0xfe
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [2312]=0x7f
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [2699]=0xfb
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [3529]=0x7f
+(0x7f12a354d000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [4093]=0x7f
+---------------------
+[39]Testing 7f12a354e000
+++++++++++++++++++++
+(0x7f12a354e000,0x7f12a3775000) Found [0x7f12a36ab000] bitflip [1342]=0xdf
+(0x7f12a354e000,0x7f12a3775000) Found [0x7f12a36ab000] bitflip [1850]=0xfd
+---------------------
+(0x7f12a354e000,0x7f12a3775000) Found [0x7f12a36ac000] bitflip [240]=0xef
+(0x7f12a354e000,0x7f12a3775000) Found [0x7f12a36ac000] bitflip [1575]=0xfd
+---------------------
+++++++++++++++++++++
+(0x7f12a354e000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [240]=0xef
+(0x7f12a354e000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [1054]=0xfe
+(0x7f12a354e000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [1575]=0xfd
+(0x7f12a354e000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [2312]=0x7f
+(0x7f12a354e000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [2699]=0xfb
+(0x7f12a354e000,0x7f12a3776000) Found [0x7f12a36ac000] bitflip [3529]=0x7f
+---------------------
+[40]Testing 7f12a3561000
+[41]Testing 7f12a3562000
+[42]Testing 7f12a3567000
+[43]Testing 7f12a3568000
+[44]Testing 7f12a357b000
+[45]Testing 7f12a357c000
+[46]Testing 7f12a3595000
+[47]Testing 7f12a3596000
+[48]Testing 7f12a35a9000
+[49]Testing 7f12a35aa000
+[50]Testing 7f12a35e7000
+[51]Testing 7f12a35e8000
+++++++++++++++++++++
+(0x7f12a35e8000,0x7f12a36ac000) Found [0x7f12a3776000] bitflip [58]=0x7f
+(0x7f12a35e8000,0x7f12a36ac000) Found [0x7f12a3776000] bitflip [1196]=0xfe
+(0x7f12a35e8000,0x7f12a36ac000) Found [0x7f12a3776000] bitflip [1868]=0xf7
+(0x7f12a35e8000,0x7f12a36ac000) Found [0x7f12a3776000] bitflip [1878]=0xdf
+---------------------
+[52]Testing 7f12a3625000
+[53]Testing 7f12a3626000
+[54]Testing 7f12a3631000
+[55]Testing 7f12a3632000
+[56]Testing 7f12a3689000
+++++++++++++++++++++
+(0x7f12a3689000,0x7f12a3719000) Found [0x7f12a37eb000] bitflip [1034]=0x7f
+(0x7f12a3689000,0x7f12a3719000) Found [0x7f12a37eb000] bitflip [1400]=0xf7
+(0x7f12a3689000,0x7f12a3719000) Found [0x7f12a37eb000] bitflip [2255]=0xfd
+(0x7f12a3689000,0x7f12a3719000) Found [0x7f12a37eb000] bitflip [2788]=0xdf
+(0x7f12a3689000,0x7f12a3719000) Found [0x7f12a37eb000] bitflip [3000]=0xf7
+(0x7f12a3689000,0x7f12a3719000) Found [0x7f12a37eb000] bitflip [4073]=0x7f
+---------------------
+++++++++++++++++++++
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37eb000] bitflip [2788]=0xdf
+---------------------
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1178]=0xef
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1484]=0xbf
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1785]=0xfb
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1919]=0xef
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [2954]=0xfe
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [3950]=0xf7
+(0x7f12a3689000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [4079]=0xfe
+---------------------
+[57]Testing 7f12a368a000
+++++++++++++++++++++
+(0x7f12a368a000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [240]=0xf7
+(0x7f12a368a000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1178]=0xef
+(0x7f12a368a000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1484]=0xbf
+(0x7f12a368a000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [1785]=0xfb
+(0x7f12a368a000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [2688]=0xf7
+(0x7f12a368a000,0x7f12a371a000) Found [0x7f12a37ec000] bitflip [2954]=0xfe
+---------------------
+[58]Testing 7f12a36ab000
+[59]Testing 7f12a36ac000
+[60]Testing 7f12a36db000
+++++++++++++++++++++
+(0x7f12a36db000,0x7f12a3bf7000) Found [0x7f12a3bd5000] bitflip [1400]=0xfd
+(0x7f12a36db000,0x7f12a3bf7000) Found [0x7f12a3bd5000] bitflip [2001]=0xf7
+(0x7f12a36db000,0x7f12a3bf7000) Found [0x7f12a3bd5000] bitflip [2618]=0xf7
+(0x7f12a36db000,0x7f12a3bf7000) Found [0x7f12a3bd5000] bitflip [2714]=0xef
+---------------------
+++++++++++++++++++++
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd5000] bitflip [75]=0xef
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd5000] bitflip [1400]=0xfd
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd5000] bitflip [1418]=0xfb
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd5000] bitflip [2618]=0xf7
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd5000] bitflip [2714]=0xef
+---------------------
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [1447]=0xfb
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [1507]=0x7f
+(0x7f12a36db000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [3936]=0xfe
+---------------------
+[61]Testing 7f12a36dc000
+++++++++++++++++++++
+(0x7f12a36dc000,0x7f12a3bf7000) Found [0x7f12a3bd5000] bitflip [2001]=0xf7
+(0x7f12a36dc000,0x7f12a3bf7000) Found [0x7f12a3bd5000] bitflip [3622]=0xdf
+---------------------
+(0x7f12a36dc000,0x7f12a3bf7000) Found [0x7f12a3bd6000] bitflip [1549]=0x7f
+(0x7f12a36dc000,0x7f12a3bf7000) Found [0x7f12a3bd6000] bitflip [1723]=0xfd
+(0x7f12a36dc000,0x7f12a3bf7000) Found [0x7f12a3bd6000] bitflip [2424]=0xfd
+(0x7f12a36dc000,0x7f12a3bf7000) Found [0x7f12a3bd6000] bitflip [3789]=0xbf
+---------------------
+++++++++++++++++++++
+(0x7f12a36dc000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [755]=0x7f
+(0x7f12a36dc000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [1165]=0xfb
+(0x7f12a36dc000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [1507]=0x7f
+(0x7f12a36dc000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [1549]=0x7f
+(0x7f12a36dc000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [1723]=0xfd
+(0x7f12a36dc000,0x7f12a3bf8000) Found [0x7f12a3bd6000] bitflip [3789]=0xbf
+---------------------
+[62]Testing 7f12a3705000
+[63]Testing 7f12a3706000
+[64]Testing 7f12a3719000
+[65]Testing 7f12a371a000
+[66]Testing 7f12a3775000
+[67]Testing 7f12a3776000
+[68]Testing 7f12a378f000
+[69]Testing 7f12a3790000
+[70]Testing 7f12a37c3000
+++++++++++++++++++++
+(0x7f12a37c3000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [268]=0xf7
+(0x7f12a37c3000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [320]=0xfe
+(0x7f12a37c3000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [3149]=0xef
+(0x7f12a37c3000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [3227]=0xef
+---------------------
+[71]Testing 7f12a37c4000
+++++++++++++++++++++
+(0x7f12a37c4000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [320]=0xfe
+(0x7f12a37c4000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [1030]=0xfe
+(0x7f12a37c4000,0x7f12a3aef000) Found [0x7f12a3acd000] bitflip [2197]=0xfb
+---------------------
+(0x7f12a37c4000,0x7f12a3aef000) Found [0x7f12a3ace000] bitflip [1450]=0xfb
+(0x7f12a37c4000,0x7f12a3aef000) Found [0x7f12a3ace000] bitflip [1610]=0xef
+---------------------
