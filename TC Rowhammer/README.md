@@ -9,7 +9,7 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 ## Command line arguments
 
 <pre>
-  -s SIZE               allocate SIZE MB buffer for testing (default is 32 MB)
+  -s SIZE               allocate SIZE MB buffer for testing (default is 16 MB)
   -o output_file,       path to the output file, default is stdout
   -m THRESHOLD_MULT     the THRESHOLD_MULT creates the threshold for SBDR and non-SBDR pairs (default is 1.3)
   -i ITERATIONS         gather timings for SBDR pairs after ITERATIONS iterations (default is 5000)
@@ -30,7 +30,7 @@ Then run it by:
 	./tc_rh [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-q <sample_size>] [-e <run_time>]
     
 ## Remarks
-This tool was tested in both native and virtualized environment and in both cases over 30 bit flips were generated within 30 minutes. Both the host and guest (VMware) operating system were running Ubuntu 16.04.02 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations.
+This tool was tested in both native and virtualized environment and in both cases over 200 bit flips were generated within 20 minutes. Both the host and guest (VMware) were running Ubuntu 16.04.02 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
 
 ## Notes
 The debug information (when enabled) about the DRAM mapping are targetted towards Sandy Bridge microarchitecture CPUs. If there is need for stats on a different microarchitecture, the code can be easily extended by using the implementation here: [hammertime](https://github.com/vusec/hammertime/blob/master/ramses/addr.c) <br>
