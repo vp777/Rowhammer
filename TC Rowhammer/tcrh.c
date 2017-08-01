@@ -136,11 +136,13 @@ uint64_t getRow(uint64_t paddr) {
 static int page_row_cmp(const void *p1, const void *p2) {
 	const struct PAGE *page1 = (const struct PAGE*) p1;
 	const struct PAGE *page2 = (const struct PAGE*) p2;
-	return page1->row > page2->row;
+	return page1->row > page2->row?1:(page1->row == page2->row?0:-1);
 }
 
 static int u64cmp(const void *p1, const void *p2) {
-	return *(uint64_t * const *) p1 > *(uint64_t * const *) p2;
+	const uint64_t v1=*(uint64_t const *) p1;
+	const uint64_t v2=*(uint64_t const *) p2;
+	return v1>v2?1:(v1==v2?0:-1);
 }
 
 size_t sbdr(uintptr_t oaddr, void *mem, size_t len, uintptr_t *set, size_t step) {
