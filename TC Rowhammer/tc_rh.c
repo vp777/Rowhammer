@@ -28,7 +28,7 @@
 #include <math.h>
 #include <string.h>
 
-uint64_t BUFSIZE = (1 << 25);
+uint64_t BUFSIZE = (1 << 24);
 uint64_t MACCESS_ITERATIONS = 5000;
 uint64_t SAMPLE_SIZE = 8;
 uint64_t CALIBRATION_RUNS = 64;
@@ -36,6 +36,9 @@ float THRESHOLD_MULT = 1.3;
 
 #define PAGE_SIZE 0x1000
 #define ROW_GRAN 0x1000 //optional: on sandy bridge, the whole page resides in a single row.
+
+#define MIN(a,b) ((a)>(b)?(b):(a))
+#define MAX(a,b) ((a)>(b)?(a):(b))
 
 struct PAGE {
 	uintptr_t vaddr;
@@ -201,9 +204,11 @@ int main(int argc, char *argv[]) {
 	uint32_t *array;
 	uintptr_t origin;
 	uintptr_t found[BUFSIZE / PAGE_SIZE];
+	uint64_t l3cache_size=sysconf(_SC_LEVEL3_CACHE_SIZE);
+	uint64_t *evictionBuffer=NULL;
+	uint64_t runTime = 0;
 	size_t n, i;
 
-	uint64_t runTime = 0;
 	int opt;
 	while ((opt = getopt(argc, argv, "s:o:m:i:q:e:")) != -1) {
 		switch (opt) {
@@ -243,12 +248,17 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
+
 	array = mmap(NULL, BUFSIZE, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS | MAP_POPULATE, -1, 0);
 	memset((void*) array, 0xff, BUFSIZE);
 
 	origin = (uintptr_t) array;
 	n = sbdr(origin, array, BUFSIZE, found, PAGE_SIZE);
 
+	if((uint64_t)n*PAGE_SIZE>(uint64_t)(2.0*l3cache_size)){//a lot of pages will not be inside the cache
+		fprintf(stderr, "[!]Using eviction buffer\n");
+		evictionBuffer=(uint64_t*)malloc(l3cache_size);//evict the whole l3 cache
+	}
 	fprintf(stderr, "Found in bank=%zu\n", n);
 
 	uint8_t banksNum[]={8,16,32,64};
@@ -259,10 +269,10 @@ int main(int argc, char *argv[]) {
 	}
 
 	if(i==sizeof(banksNum)/sizeof(*banksNum)) {
-		fprintf(stderr, "Not the expected number of addresses in the bank, you may want to try again\n");
+		fprintf(stderr, "[!]Not the expected number of addresses in the bank, you may want to try again\n");
 		sleep(5);
 	} else {
-		fprintf(stderr, "We possibly have a total of %u banks\n", banksNum[i]);
+		fprintf(stderr, "[!]I think we have a total of %u banks\n", banksNum[i]);
 		sleep(3);
 	}
 
@@ -338,8 +348,19 @@ int main(int argc, char *argv[]) {
 			const uintptr_t taddr[2] = { dside, uside };
 			hammer_double(taddr, 700000);
 
-			//Now check if we have any victims
+			//Now flush the l3 cache and check if we have any victims
 			int externalRun=0;
+
+			if(evictionBuffer){
+				uint64_t sum=0;
+				for(size_t i=0; i < l3cache_size/sizeof(uint64_t); i++){
+					sum+=evictionBuffer[i];
+				}
+			}else{
+				for(size_t i = 0; i < n; i++)
+					flush(pages[i].vaddr, PAGE_SIZE);
+			}
+
 			flip_check_label:
 			for (size_t pageO = 0; pageO < n; pageO++) {
 				int gotBitFlips=0;
@@ -382,7 +403,10 @@ int main(int argc, char *argv[]) {
 						*(volatile uint8_t*) (pages[pageO].vaddr + offset) = 0xff;
 					}
 				}
-				if(gotBitFlips) printf("---------------------\n");
+				if(gotBitFlips) {
+					flush(pages[pageO].vaddr, PAGE_SIZE);
+					printf("---------------------\n");
+				}
 			}
 			memset((void*) uside, 0xff, PAGE_SIZE);
 			flush(uside, PAGE_SIZE);
