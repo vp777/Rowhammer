@@ -1,6 +1,3 @@
-#./tcrh -s 16 -o vm-16mb-20min.log -e $((20*60))
-#475 bit flips of which 297 are unique: cut -d" " -f3,5 vm-16mb-20min.log | sort | uniq | wc -l
-
 [0]Testing 7fa5d396b000
 [1]Testing 7fa5d39a1000
 [2]Testing 7fa5d39b6000
