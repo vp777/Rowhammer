@@ -1,0 +1,2554 @@
+Hammering 0x7ff46e400000 and 0x7ff46e444000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e422180[421] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e422180[441] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e422400[1052] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e422480[1184] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e422740[1860] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e422840[2161] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e422b80[2947] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4233c0[5080] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e423500[5416] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e423500[5429] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e423940[6507] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e423d80[7557] 0xff->0xef
+Hammering 0x7ff46e422000 and 0x7ff46e466000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e444800[2095] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e444880[2234] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e444a40[2642] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e444dc0[3562] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e445100[4360] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e445480[5275] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e445700[5890] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4458c0[6352] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e445b40[7002] 0xff->0xef
+Hammering 0x7ff46e444000 and 0x7ff46e488000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e4663c0[964] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4663c0[970] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e466b00[2867] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e466c40[3157] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e467280[4794] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4672c0[4853] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4673c0[5081] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4677c0[6080] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e467a40[6768] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e467b00[6963] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e467bc0[7135] 0xff->0xfd
+Hammering 0x7ff46e466000 and 0x7ff46e4aa000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e488180[386] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e488400[1032] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e488700[1792] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4889c0[2528] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e488a00[2594] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e489240[4685] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e489580[5505] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e489900[6416] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e489940[6471] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e489980[6549] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e489a00[6684] 0xff->0xfd
+Hammering 0x7ff46e488000 and 0x7ff46e4cc000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4aa240[577] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4aa480[1188] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4aaac0[2762] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4aabc0[3016] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4aac00[3123] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4ab1c0[4602] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4ab200[4654] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ab2c0[4834] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4ab700[5891] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4abb40[6997] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4abe00[7680] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4abf40[8022] 0xff->0xfe
+Hammering 0x7ff46e4aa000 and 0x7ff46e4ee000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4cc540[1345] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4cccc0[3271] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4cce00[3616] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4cd200[4629] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4cd280[4791] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4cd480[5272] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4cd580[5545] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4cd600[5649] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4cd640[5717] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4cd740[5956] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4cdd80[7553] 0xff->0x7f
+Hammering 0x7ff46e4cc000 and 0x7ff46e5dc000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4ee180[389] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4ee5c0[1507] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4ee800[2099] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ee980[2452] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4eeb40[2913] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4eec00[3098] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4eed40[3395] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4ef2c0[4862] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4ef500[5394] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4efa00[6659] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4efa80[6792] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4efd00[7434] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4eff00[7992] 0xff->0xfb
+Hammering 0x7ff46e4ee000 and 0x7ff46e5fe000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5dc380[951] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5dcb40[2884] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5dcc00[3082] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5dcc00[3135] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5dce40[3683] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5dd3c0[5078] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5dd880[6323] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5ddb40[6997] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5dde80[7861] 0xff->0xfe
+Hammering 0x7ff46e5dc000 and 0x7ff46e598000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5fe1c0[503] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5fe280[668] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5fe340[833] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5fe540[1372] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fe8c0[2255] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5fe900[2306] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5fe940[2410] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5fe980[2442] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5fefc0[4054] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5ff140[4461] 0xff->0xfe
+Hammering 0x7ff46e5fe000 and 0x7ff46e5ba000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e598380[939] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e598840[2172] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e598b80[2951] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e598cc0[3284] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e598cc0[3297] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e598e40[3709] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5993c0[5101] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e599480[5298] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e599600[5671] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e599d80[7583] 0xff->0xfe
+Hammering 0x7ff46e598000 and 0x7ff46e554000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5ba500[1286] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ba540[1386] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5ba780[1961] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5bacc0[3293] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5baf80[4018] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5bb2c0[4834] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5bbac0[6893] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5bbd80[7567] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5bbdc0[7671] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5bbe40[7753] 0xff->0xf7
+Hammering 0x7ff46e5ba000 and 0x7ff46e576000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e554380[938] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e554500[1331] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e555240[4723] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e555600[5682] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e555c00[7205] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e555e40[7803] 0xff->0xfe
+Hammering 0x7ff46e554000 and 0x7ff46e510000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e576100[267] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e576500[1322] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e576940[2374] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e576d80[3475] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5770c0[4313] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e577540[5490] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e577680[5811] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5778c0[6370] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e577a80[6797] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e577b00[6933] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e577b40[7013] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e577fc0[8163] 0xff->0xdf
+Hammering 0x7ff46e576000 and 0x7ff46e532000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e5105c0[1488] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e510640[1628] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e510a80[2691] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e510ac0[2795] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e510c00[3090] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e510c40[3141] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e510dc0[3567] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e510e40[3685] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e511340[4960] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e511d00[7435] 0xff->0xf7
+Hammering 0x7ff46e510000 and 0x7ff46e402000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=14
+Hammering 0x7ff46e532000 and 0x7ff46e420000 -> Channel=0, Dimm=0, Rank=0, Bank=0, relRow1=15
+Hammering 0x7ff46e402000 and 0x7ff46e446000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e420500[1322] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e420600[1594] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e420c80[3213] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4211c0[4571] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e421f40[8051] 0xff->0xbf
+Hammering 0x7ff46e420000 and 0x7ff46e464000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e447100[4395] 0xff->0xdf
+Hammering 0x7ff46e446000 and 0x7ff46e48a000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e464380[909] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e465940[6480] 0xff->0xbf
+Hammering 0x7ff46e464000 and 0x7ff46e4a8000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e48be80[7851] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e48bf00[7979] 0xff->0x7f
+Hammering 0x7ff46e48a000 and 0x7ff46e4ce000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4a80c0[242] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a85c0[1504] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a85c0[1516] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4a9180[4482] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a9180[4510] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a9740[5995] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a9b80[7043] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a9d00[7430] 0xff->0xbf
+Hammering 0x7ff46e4a8000 and 0x7ff46e4ec000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4ce0c0[212] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4ce100[300] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4ce2c0[748] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ce800[2095] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4cec40[3189] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4ced40[3443] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4cf5c0[5617] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4cf640[5736] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4cfa40[6739] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4cfc00[7196] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4cff80[8088] 0xff->0xbf
+Hammering 0x7ff46e4ce000 and 0x7ff46e5de000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4ec1c0[466] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4ec480[1196] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4ec9c0[2539] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4ecc40[3152] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4ecf80[3973] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4ed2c0[4827] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4ed340[4959] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ed3c0[5082] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ed500[5410] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4ed840[6250] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4edc80[7309] 0xff->0xf7
+Hammering 0x7ff46e4ec000 and 0x7ff46e5fc000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5de140[326] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5de280[670] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5de640[1630] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5de880[2201] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5decc0[3303] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5def40[3910] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5df580[5539] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5df600[5657] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5df940[6522] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5dfa80[6842] 0xff->0xfe
+Hammering 0x7ff46e5de000 and 0x7ff46e59a000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5fc280[702] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fcd00[3365] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fcdc0[3550] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5fd1c0[4586] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5fd340[4949] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fd400[5146] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5fd540[5445] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5fd700[5940] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5fd740[5981] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5fd880[6290] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fd880[6324] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5fda40[6754] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5fdd00[7434] 0xff->0xef
+Hammering 0x7ff46e5fc000 and 0x7ff46e5b8000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e59a4c0[1224] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e59a540[1347] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e59a7c0[2009] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e59a980[2456] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e59acc0[3292] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e59b200[4650] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e59b940[6487] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e59b9c0[6630] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e59bec0[7877] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e59bfc0[8136] 0xff->0xfd
+Hammering 0x7ff46e59a000 and 0x7ff46e556000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5b8640[1644] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b8940[2409] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b8d00[3335] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b8dc0[3530] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b8fc0[4072] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5b94c0[5354] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b9940[6519] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b9a40[6757] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b9cc0[7363] 0xff->0xbf
+Hammering 0x7ff46e5b8000 and 0x7ff46e574000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e5562c0[764] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e556380[906] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e556440[1105] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e556bc0[3060] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e556d40[3450] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e557180[4538] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e557880[6278] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e557a80[6826] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e557a80[6829] 0xff->0xef
+Hammering 0x7ff46e556000 and 0x7ff46e512000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e5743c0[1007] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e574900[2331] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e574ec0[3816] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e574f40[3908] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e574fc0[4054] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e575240[4699] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5753c0[5071] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e575500[5403] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e575700[5938] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e575a00[6682] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e575b00[6924] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e575d80[7581] 0xff->0xef
+Hammering 0x7ff46e574000 and 0x7ff46e530000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e512180[443] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e512300[806] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e512380[938] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e512480[1214] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e512c80[3243] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e512cc0[3317] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e512e00[3634] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e513080[4275] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e513700[5946] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e513840[6259] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e513880[6314] 0xff->0xdf
+Hammering 0x7ff46e512000 and 0x7ff46e404000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=14
+Hammering 0x7ff46e530000 and 0x7ff46e426000 -> Channel=0, Dimm=0, Rank=0, Bank=1, relRow1=15
+Hammering 0x7ff46e404000 and 0x7ff46e440000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e426040[117] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e426280[691] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e426640[1605] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e426800[2092] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e426900[2326] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e426a40[2670] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e427980[6578] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e427a80[6825] 0xff->0xef
+Hammering 0x7ff46e426000 and 0x7ff46e462000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e440200[564] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e440640[1602] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e440780[1968] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e440a80[2731] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e440cc0[3311] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e440f80[3978] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e441080[4258] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4410c0[4306] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e441100[4355] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e441480[5293] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e441940[6484] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e441f00[7960] 0xff->0xfd
+Hammering 0x7ff46e440000 and 0x7ff46e48c000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e462100[272] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e462380[898] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4624c0[1263] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e462680[1685] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4626c0[1744] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e462b80[2992] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e462d00[3375] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e463400[5129] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e463700[5917] 0xff->0xdf
+Hammering 0x7ff46e462000 and 0x7ff46e4ae000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e48c280[643] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e48c880[2229] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e48cb00[2844] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e48ce00[3631] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e48ce80[3756] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e48cf00[3868] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e48d300[4894] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e48d540[5490] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e48dd40[7515] 0xff->0xfd
+Hammering 0x7ff46e48c000 and 0x7ff46e4c8000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4ae6c0[1779] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4aee80[3734] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4aeec0[3783] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4af100[4389] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4af300[4878] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4af340[4931] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4af340[4981] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4af740[5995] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4af800[6148] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4af940[6484] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4afac0[6864] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4afac0[6893] 0xff->0xbf
+Hammering 0x7ff46e4ae000 and 0x7ff46e4ea000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4c8b80[2998] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c8f80[4029] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c9900[6428] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c9a00[6662] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c9fc0[8142] 0xff->0xef
+Hammering 0x7ff46e4c8000 and 0x7ff46e5d8000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4ea4c0[1229] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4eb740[6002] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4eb800[6180] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ebb00[6946] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ebd40[7538] 0xff->0xfe
+Hammering 0x7ff46e4ea000 and 0x7ff46e5fa000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5d87c0[2046] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5d8ac0[2755] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d8b00[2858] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5d9100[4400] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d9180[4503] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5d91c0[4582] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d9440[5229] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d9700[5940] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5d9940[6485] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5d9940[6509] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5d9a00[6699] 0xff->0xf7
+Hammering 0x7ff46e5d8000 and 0x7ff46e59c000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5fae80[3717] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5faf40[3912] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5faf80[3995] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5fb0c0[4307] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5fb6c0[5875] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fb840[6245] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5fbd80[7562] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5fbfc0[8166] 0xff->0xbf
+Hammering 0x7ff46e5fa000 and 0x7ff46e5be000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e59c100[291] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e59c140[363] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e59c400[1042] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e59cb00[2866] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e59ce40[3711] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e59de00[7743] 0xff->0x7f
+Hammering 0x7ff46e59c000 and 0x7ff46e550000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5be640[1652] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5bea40[2679] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5bea80[2725] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5bee80[3768] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5befc0[4085] 0xff->0x7f
+Hammering 0x7ff46e5be000 and 0x7ff46e572000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e5506c0[1791] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e550c00[3072] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e550fc0[4060] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5510c0[4338] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5511c0[4572] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e551480[5282] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e551b40[6986] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e551b40[7012] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e551f40[8000] 0xff->0xfb
+Hammering 0x7ff46e550000 and 0x7ff46e514000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e572640[1632] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e572840[2170] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e572bc0[3032] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e573540[5498] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e573600[5693] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e573c40[7233] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e573dc0[7648] 0xff->0xef
+Hammering 0x7ff46e572000 and 0x7ff46e536000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e514280[643] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e514800[2077] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e514800[2109] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e514b80[2956] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e514d80[3503] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e515240[4698] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e515500[5436] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5157c0[6116] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e515900[6418] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e515900[6461] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e515e40[7790] 0xff->0x7f
+Hammering 0x7ff46e514000 and 0x7ff46e406000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=14
+Hammering 0x7ff46e536000 and 0x7ff46e424000 -> Channel=0, Dimm=0, Rank=0, Bank=2, relRow1=15
+Hammering 0x7ff46e406000 and 0x7ff46e442000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e424140[335] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e424200[516] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e424200[562] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e424680[1691] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e424680[1714] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4247c0[1987] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e424840[2165] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e424980[2485] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e424b80[2956] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e424cc0[3269] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e424cc0[3318] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e424d80[3474] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e424e40[3691] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e425140[4463] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4254c0[5348] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e425a00[6681] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e425b80[7079] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e425bc0[7138] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e425e00[7691] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e425e40[7774] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e425fc0[8182] 0xff->0xfb
+Hammering 0x7ff46e424000 and 0x7ff46e460000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e442280[693] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e442340[874] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e442640[1654] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e442700[1805] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4427c0[2003] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e442840[2144] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e442940[2383] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e442940[2421] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e442b40[2899] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e443340[4936] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4433c0[5109] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e443580[5557] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e443640[5706] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e443b40[6976] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e443d40[7524] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e443f40[8032] 0xff->0x7f
+Hammering 0x7ff46e442000 and 0x7ff46e48e000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e460240[636] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e460680[1710] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e460740[1915] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e460a40[2642] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e460d80[3495] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e460f80[3973] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e461180[4507] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4611c0[4545] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e461280[4744] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e461500[5431] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4615c0[5568] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e461680[5809] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e461940[6484] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e461940[6512] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4619c0[6608] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e461bc0[7166] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e461e00[7708] 0xff->0xfe
+Hammering 0x7ff46e460000 and 0x7ff46e4ac000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e48e180[423] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e48e200[536] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e48ea40[2668] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e48eb00[2838] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e48ef00[3843] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e48f280[4762] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e48f380[5046] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e48f400[5144] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e48f6c0[5847] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e48fac0[6890] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e48fd40[7507] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e48fe40[7749] 0xff->0xf7
+Hammering 0x7ff46e48e000 and 0x7ff46e4ca000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4ac180[434] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4ac6c0[1762] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ac780[1937] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4ac800[2110] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4acb40[2907] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4acb80[2969] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4acc00[3104] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4acc80[3252] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4acc80[3258] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4accc0[3280] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4ad680[5803] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ad840[6239] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ad880[6303] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4adc40[7267] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4add40[7488] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4adfc0[8133] 0xff->0xf7
+Hammering 0x7ff46e4ac000 and 0x7ff46e4e8000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4ca100[296] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4ca400[1058] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ca480[1153] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ca4c0[1236] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4ca5c0[1498] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4cad00[3365] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4cae40[3676] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4cb740[5972] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4cb7c0[6124] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4cba00[6676] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4cba80[6827] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4cbcc0[7394] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4cbe80[7843] 0xff->0xfb
+Hammering 0x7ff46e4ca000 and 0x7ff46e5da000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4e80c0[200] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4e8380[956] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e8640[1653] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e8640[1655] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4e8940[2401] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e8c80[3241] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4e8ec0[3810] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4e9180[4483] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4e92c0[4851] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e9380[4998] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4e9840[6254] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4e9d80[7579] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4e9e80[7832] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4e9ec0[7898] 0xff->0x7f
+Hammering 0x7ff46e4e8000 and 0x7ff46e5f8000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5da200[512] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5dac80[3234] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5dac80[3244] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5dacc0[3287] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5dae00[3612] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5dafc0[4072] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5db080[4283] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5db4c0[5358] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5db500[5427] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5db8c0[6390] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5dbb00[6920] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5dbcc0[7369] 0xff->0xfe
+Hammering 0x7ff46e5da000 and 0x7ff46e59e000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5f8d40[3392] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f90c0[4320] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f9380[5048] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f9480[5281] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f95c0[5588] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f9700[5900] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5f9840[6263] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f99c0[6641] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f9c00[7173] 0xff->0xdf
+Hammering 0x7ff46e5f8000 and 0x7ff46e5bc000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e59e400[1072] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e59e6c0[1763] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e59e700[1848] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e59e880[2201] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e59e940[2390] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e59e940[2423] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e59e9c0[2496] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e59ea40[2679] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e59ef00[3881] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e59f340[4934] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e59fa00[6656] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e59fb00[6917] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e59fc40[7283] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e59fcc0[7415] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e59fe40[7744] 0xff->0xef
+Hammering 0x7ff46e59e000 and 0x7ff46e552000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5bc500[1291] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5bcc80[3253] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5bcd80[3506] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5bcf40[3909] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5bd0c0[4344] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5bd580[5557] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5bd840[6211] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5bdb00[6965] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5bdbc0[7128] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5bdbc0[7133] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5bde00[7705] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5bde40[7744] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5bde40[7803] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5bde80[7842] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5bdf40[8058] 0xff->0xfd
+Hammering 0x7ff46e5bc000 and 0x7ff46e570000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e5524c0[1258] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e552800[2082] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e553280[4776] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e553480[5249] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e553840[6263] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e553840[6270] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e553a80[6786] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e553b80[7079] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e553bc0[7139] 0xff->0xfd
+Hammering 0x7ff46e552000 and 0x7ff46e516000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e570240[610] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e570380[924] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e570c80[3225] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e570d40[3450] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e571840[6244] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5718c0[6372] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e571ac0[6858] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e571c80[7335] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e571e80[7815] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e571e80[7828] 0xff->0xf7
+Hammering 0x7ff46e570000 and 0x7ff46e534000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e516280[691] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e516500[1334] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e516580[1426] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5166c0[1736] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e517100[4409] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5176c0[5882] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e517940[6501] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e517ec0[7874] 0xff->0x7f
+Hammering 0x7ff46e516000 and 0x7ff46e408000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=14
+Hammering 0x7ff46e534000 and 0x7ff46e42a000 -> Channel=0, Dimm=0, Rank=0, Bank=3, relRow1=15
+Hammering 0x7ff46e408000 and 0x7ff46e44c000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e42a9c0[2507] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e42ab00[2856] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e42ab80[2970] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42abc0[3054] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e42ac40[3169] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42b780[6079] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e42b880[6320] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e42b940[6523] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e42bc40[7238] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e42bd00[7427] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42bd00[7481] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42bf40[8053] 0xff->0xef
+Hammering 0x7ff46e42a000 and 0x7ff46e46e000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e44c0c0[197] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44c0c0[203] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e44c0c0[245] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e44c180[439] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e44c580[1466] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44c900[2339] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44cd00[3386] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e44cf80[3985] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44d100[4385] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44d400[5168] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e44d440[5216] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44d680[5794] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44d680[5816] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44d880[6305] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44d8c0[6397] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e44df80[8093] 0xff->0xef
+Hammering 0x7ff46e44c000 and 0x7ff46e480000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e46e1c0[449] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e46e200[553] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46e4c0[1218] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e46e600[1591] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e46e780[1935] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e46ec00[3109] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e46ed00[3332] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e46edc0[3528] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e46f200[4655] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e46f5c0[5579] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e46f740[5996] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46fc40[7276] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e46fd40[7489] 0xff->0xef
+Hammering 0x7ff46e46e000 and 0x7ff46e4a2000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e4802c0[763] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e480580[1409] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4809c0[2507] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e480c40[3157] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e480c80[3233] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e480e00[3606] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e480ec0[3779] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e480f40[3936] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4811c0[4563] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e481300[4905] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e481400[5141] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e481540[5472] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e481700[5910] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e481940[6515] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4819c0[6643] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e481b40[6989] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e481c40[7232] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e481d40[7538] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e481d80[7592] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e481d80[7601] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e481e00[7702] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e481e00[7717] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e481f00[7986] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e481fc0[8131] 0xff->0xf7
+Hammering 0x7ff46e480000 and 0x7ff46e4c4000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4a2100[283] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a2140[328] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a2540[1379] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a25c0[1513] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a2780[1936] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a2880[2222] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a28c0[2249] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4a29c0[2499] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a2a80[2705] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a2d80[3498] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a2fc0[4073] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a3380[4995] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a3440[5184] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a3cc0[7392] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a3dc0[7640] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a3f40[8038] 0xff->0xfe
+Hammering 0x7ff46e4a2000 and 0x7ff46e4e6000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4c41c0[508] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c47c0[2018] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c4b00[2848] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c4b40[2887] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c4c40[3196] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4c4e00[3632] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c4fc0[4049] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c4fc0[4076] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c5080[4258] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c5480[5281] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c5500[5399] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c5540[5468] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c55c0[5591] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c55c0[5616] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c5700[5888] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4c5900[6400] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c59c0[6600] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c5d80[7599] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c5f40[8019] 0xff->0x7f
+Hammering 0x7ff46e4c4000 and 0x7ff46e5d4000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4e6280[667] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4e6900[2353] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e6940[2383] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4e6a40[2674] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e6b00[2842] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4e6b80[3000] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4e6d40[3453] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e6fc0[4046] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e6fc0[4067] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e70c0[4319] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4e7300[4874] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4e7780[6034] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4e7a40[6774] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e7ac0[6882] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4e7b00[6974] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e7b40[7024] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e7c00[7174] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e7c40[7234] 0xff->0xfb
+Hammering 0x7ff46e4e6000 and 0x7ff46e5f6000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5d4780[1955] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d48c0[2242] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d4f80[4019] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5d5440[5205] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d54c0[5363] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d5d40[7539] 0xff->0xdf
+Hammering 0x7ff46e5d4000 and 0x7ff46e590000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5f6040[76] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f6180[399] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f6200[537] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f63c0[982] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f6500[1332] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f68c0[2264] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f6980[2491] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f6a40[2670] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f7200[4669] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5f7280[4791] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f7340[4979] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f7640[5741] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f7680[5817] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f76c0[5862] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f7740[5981] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f7840[6265] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f78c0[6387] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f7ac0[6863] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f7bc0[7137] 0xff->0xbf
+Hammering 0x7ff46e5f6000 and 0x7ff46e5b2000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e590680[1706] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e590780[1968] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e590880[2223] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e591140[4440] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e591540[5445] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5915c0[5596] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e591600[5632] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e591740[5955] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e591b40[6976] 0xff->0xfd
+Hammering 0x7ff46e590000 and 0x7ff46e55c000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5b2380[915] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b25c0[1524] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5b2600[1589] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b26c0[1752] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b2900[2358] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b2a00[2609] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b2ac0[2762] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b2c40[3162] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b2c40[3184] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b2e40[3711] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b2f00[3871] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b3100[4384] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b3200[4608] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b3240[4731] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b3440[5241] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b3d40[7523] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b3ec0[7922] 0xff->0xef
+Hammering 0x7ff46e5b2000 and 0x7ff46e57e000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e55c4c0[1224] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e55c500[1315] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e55c780[1943] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55ca00[2589] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55ca40[2642] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55cf00[3886] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e55d340[4990] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e55d380[5023] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55d400[5183] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e55d500[5426] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e55d740[5989] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55db00[6918] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55dbc0[7106] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e55dc40[7261] 0xff->0xfb
+Hammering 0x7ff46e55c000 and 0x7ff46e518000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e57e100[288] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e57e1c0[502] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e57e580[1414] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e57e5c0[1523] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57e600[1563] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e57e800[2051] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e57ec00[3114] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e57ec40[3142] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e57f480[5293] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e57f600[5672] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e57f7c0[6095] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e57fd80[7571] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e57ff40[8029] 0xff->0x7f
+Hammering 0x7ff46e57e000 and 0x7ff46e53a000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e518400[1066] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e518580[1445] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e518680[1665] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e518b80[2961] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e518bc0[3016] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e518c40[3145] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e518cc0[3281] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e518d00[3344] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e519100[4398] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e519100[4413] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5191c0[4576] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5191c0[4605] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e519200[4611] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e519580[5507] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5195c0[5574] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5195c0[5602] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5198c0[6394] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e519a00[6669] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e519a80[6790] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e519d40[7514] 0xff->0xfb
+Hammering 0x7ff46e518000 and 0x7ff46e40a000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=14
+Hammering 0x7ff46e53a000 and 0x7ff46e428000 -> Channel=0, Dimm=0, Rank=0, Bank=4, relRow1=15
+Hammering 0x7ff46e40a000 and 0x7ff46e44e000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e428340[853] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e428340[882] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e428540[1362] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e428c00[3127] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e428d40[3394] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e428e00[3584] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4290c0[4349] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e429680[5803] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e429740[6014] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e429b00[6915] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e429d40[7513] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e429e00[7734] 0xff->0xf7
+Hammering 0x7ff46e428000 and 0x7ff46e46c000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e44e8c0[2264] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e44e900[2358] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e44ebc0[3046] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e44f240[4718] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e44f2c0[4816] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e44f900[6452] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e44f900[6457] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e44fa80[6834] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44fb80[7045] 0xff->0xfe
+Hammering 0x7ff46e44e000 and 0x7ff46e482000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e46c1c0[504] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e46c540[1391] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46c840[2122] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e46c880[2192] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e46c880[2200] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46ca80[2704] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e46cac0[2762] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e46cb80[2968] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e46ccc0[3315] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46d400[5180] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46d500[5394] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e46d580[5544] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46d900[6460] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46d9c0[6631] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e46db40[6987] 0xff->0xdf
+Hammering 0x7ff46e46c000 and 0x7ff46e4a0000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e482100[265] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e482280[665] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e482700[1855] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e482800[2063] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e482ac0[2768] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e482d80[3504] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e483380[5013] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4835c0[5608] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e483600[5688] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4838c0[6341] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e483980[6558] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e483bc0[7104] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e483f00[7990] 0xff->0xdf
+Hammering 0x7ff46e482000 and 0x7ff46e4c6000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4a0680[1671] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a0880[2192] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a0a00[2597] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a0a80[2751] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a0f00[3880] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a1280[4769] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a1800[6178] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a1980[6546] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a1a00[6680] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4a1a40[6770] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4a1e40[7795] 0xff->0x7f
+Hammering 0x7ff46e4a0000 and 0x7ff46e4e4000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4c6200[517] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c6240[602] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c6500[1329] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c6b80[2970] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c6b80[3006] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c6c00[3120] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c6c40[3144] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c6e00[3624] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c71c0[4568] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c7600[5635] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4c7880[6280] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c7980[6544] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c7c00[7220] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c7d80[7594] 0xff->0xfe
+Hammering 0x7ff46e4c6000 and 0x7ff46e5d6000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4e44c0[1266] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4e46c0[1751] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e4b40[2911] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e4e80[3762] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e5240[4718] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e54c0[5338] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e5cc0[7408] 0xff->0x7f
+Hammering 0x7ff46e4e4000 and 0x7ff46e5f4000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5d67c0[2027] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5d6900[2358] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d6940[2419] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5d6b40[2914] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5d6c00[3131] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d6d80[3488] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d6e80[3715] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5d7200[4664] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d7840[6261] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5d7880[6272] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d7cc0[7385] 0xff->0xdf
+Hammering 0x7ff46e5d6000 and 0x7ff46e592000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5f4400[1048] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f4540[1368] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f4800[2083] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f4b40[2883] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f4c40[3187] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f4e00[3610] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f5440[5242] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f54c0[5322] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f5880[6322] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f5c80[7324] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f5c80[7336] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f5d40[7509] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f5e80[7811] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f5ec0[7903] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f5f80[8118] 0xff->0xdf
+Hammering 0x7ff46e5f4000 and 0x7ff46e5b0000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e592200[559] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e592340[855] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e592680[1694] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5926c0[1756] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5927c0[2022] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e592840[2122] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e592e00[3586] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e593600[5687] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e593700[5920] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e593a40[6760] 0xff->0xfb
+Hammering 0x7ff46e592000 and 0x7ff46e55e000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5b0040[104] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b0100[296] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b0200[512] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b0400[1035] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b0580[1459] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b05c0[1486] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b0780[1960] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b0b80[2986] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b0e40[3696] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b0e80[3765] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b0fc0[4058] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b1200[4666] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b13c0[5107] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b1400[5121] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5b1400[5139] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b1440[5233] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b15c0[5611] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b1700[5888] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b1700[5910] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b1740[5987] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b18c0[6345] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b1a00[6686] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5b1c00[7171] 0xff->0xdf
+Hammering 0x7ff46e5b0000 and 0x7ff46e57c000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e55e680[1727] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55e700[1833] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55e9c0[2510] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e55ea40[2649] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e55ea80[2716] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55edc0[3528] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55edc0[3530] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e55ee00[3609] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55ee00[3618] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e55ee80[3755] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e55f300[4883] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e55f400[5168] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55f400[5182] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55f500[5403] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e55f6c0[5866] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55f800[6168] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e55fb00[6968] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e55fdc0[7641] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55fe00[7721] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55fec0[7923] 0xff->0xbf
+Hammering 0x7ff46e55e000 and 0x7ff46e51a000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e57c100[301] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e57c440[1143] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e57c800[2095] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e57c900[2320] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e57d0c0[4323] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e57d100[4394] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e57d440[5214] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e57d600[5641] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57d640[5722] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e57d680[5760] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e57da40[6721] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e57dc80[7326] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57dd40[7492] 0xff->0xbf
+Hammering 0x7ff46e57c000 and 0x7ff46e538000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e51a0c0[219] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e51a880[2228] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e51a9c0[2523] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e51b280[4758] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e51b340[4989] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51b380[5029] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51b400[5144] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e51b4c0[5322] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e51b500[5397] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51b800[6163] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51b880[6315] 0xff->0xfe
+Hammering 0x7ff46e51a000 and 0x7ff46e40c000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=14
+Hammering 0x7ff46e538000 and 0x7ff46e42e000 -> Channel=0, Dimm=0, Rank=0, Bank=5, relRow1=15
+Hammering 0x7ff46e40c000 and 0x7ff46e448000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e42e0c0[205] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e42e140[334] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42e600[1568] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42e640[1602] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e42e800[2105] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e42e900[2336] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42e940[2400] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42ef80[4025] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e42f0c0[4340] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e42f100[4352] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42f1c0[4576] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e42f240[4673] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e42f300[4904] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e42f540[5466] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42fa00[6702] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e42fcc0[7416] 0xff->0xf7
+Hammering 0x7ff46e42e000 and 0x7ff46e46a000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e4480c0[210] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e448140[370] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e448240[616] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e448700[1818] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4489c0[2546] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e448a40[2685] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e448c00[3093] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e448d80[3490] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e448e40[3691] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e449280[4754] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e449700[5938] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e449780[6035] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e449a80[6786] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e449b80[7049] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e449c40[7278] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e449f00[7964] 0xff->0xdf
+Hammering 0x7ff46e448000 and 0x7ff46e484000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e46a480[1181] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e46a880[2208] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46ab00[2857] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e46ac80[3205] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46b080[4243] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e46b0c0[4290] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46b140[4445] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46b3c0[5106] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e46b400[5166] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e46b540[5453] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46b580[5507] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e46b5c0[5593] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e46b780[6048] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e46b7c0[6131] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e46b880[6296] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e46bfc0[8166] 0xff->0xfb
+Hammering 0x7ff46e46a000 and 0x7ff46e4a6000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e484040[87] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e484180[424] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e484540[1379] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e484600[1585] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e484a40[2640] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e484b00[2858] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e484b00[2865] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e484b80[2978] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e484bc0[3064] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e484c40[3146] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e484c40[3184] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e484d40[3402] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e484f00[3843] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e484f00[3889] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e485500[5409] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e485500[5427] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e485940[6514] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e485a40[6771] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e485d80[7607] 0xff->0xef
+Hammering 0x7ff46e484000 and 0x7ff46e4c0000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4a60c0[241] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a6100[304] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a6300[768] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4a6400[1056] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a66c0[1746] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4a6880[2226] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a6a80[2720] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a6dc0[3556] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a70c0[4330] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a7100[4384] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a72c0[4808] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a7300[4882] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a74c0[5346] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a76c0[5872] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4a7700[5938] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a7940[6504] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4a7c00[7176] 0xff->0xfd
+Hammering 0x7ff46e4a6000 and 0x7ff46e4e2000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4c0100[287] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4c0240[580] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c0300[786] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c0440[1133] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c0540[1385] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c05c0[1520] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c06c0[1750] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c0880[2178] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c0940[2401] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c0e80[3771] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c0f00[3840] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c0f00[3891] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4c0f40[3916] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c1280[4763] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c1300[4918] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c1600[5676] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c16c0[5864] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c17c0[6082] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c1940[6480] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c1d40[7521] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c1f80[8067] 0xff->0xbf
+Hammering 0x7ff46e4c0000 and 0x7ff46e5d0000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4e2b00[2859] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e2b80[3005] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4e30c0[4336] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e31c0[4546] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4e3480[5294] 0xff->0xfd
+Hammering 0x7ff46e4e2000 and 0x7ff46e5f2000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5d0200[540] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d0680[1683] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5d0bc0[3061] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5d0c80[3211] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d10c0[4320] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d1340[4966] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5d1480[5283] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d1680[5819] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5d1840[6262] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d1e00[7722] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5d1f80[8097] 0xff->0xfe
+Hammering 0x7ff46e5d0000 and 0x7ff46e594000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5f2200[535] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f2300[794] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f2700[1847] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f2780[1962] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f27c0[2011] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f2bc0[3011] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f2e40[3661] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f2e80[3712] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5f2f80[3979] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5f3080[4228] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f33c0[5082] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5f3440[5232] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f3500[5403] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5f3580[5540] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5f39c0[6627] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f3d80[7593] 0xff->0xdf
+Hammering 0x7ff46e5f2000 and 0x7ff46e5b6000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e594240[599] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e594280[664] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e594300[811] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e594400[1073] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e594540[1345] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e594680[1727] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e594800[2079] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e594a40[2638] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e594c00[3075] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e595200[4609] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e595480[5303] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e595680[5790] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5956c0[5841] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e595900[6428] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e595d40[7537] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e595d80[7576] 0xff->0x7f
+Hammering 0x7ff46e594000 and 0x7ff46e558000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5b6180[388] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b6300[802] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b6480[1192] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b6940[2416] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b6c00[3075] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b6d00[3355] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b6d40[3455] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b6dc0[3546] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b7340[4987] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5b7440[5202] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5b7440[5227] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b74c0[5338] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b79c0[6592] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b7a00[6687] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b7cc0[7385] 0xff->0xfb
+Hammering 0x7ff46e5b6000 and 0x7ff46e57a000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e5580c0[198] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e558240[613] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e558a00[2599] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e558a80[2700] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e559400[5120] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e559800[6145] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e559840[6247] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e559cc0[7389] 0xff->0xf7
+Hammering 0x7ff46e558000 and 0x7ff46e51c000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e57a7c0[2014] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e57a800[2072] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57a8c0[2258] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57a9c0[2504] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e57ad40[3396] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e57b180[4543] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e57b400[5140] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e57b580[5563] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57b980[6555] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e57bac0[6863] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e57be40[7757] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e57be80[7843] 0xff->0xf7
+Hammering 0x7ff46e57a000 and 0x7ff46e53e000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e51c740[1898] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51c800[2096] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51c940[2386] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e51c9c0[2497] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e51cc00[3082] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51d500[5426] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e51d5c0[5621] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51d5c0[5623] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e51d700[5942] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e51d740[5964] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51d980[6531] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51dd80[7581] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e51de00[7731] 0xff->0xbf
+Hammering 0x7ff46e51c000 and 0x7ff46e40e000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=14
+Hammering 0x7ff46e53e000 and 0x7ff46e42c000 -> Channel=0, Dimm=0, Rank=0, Bank=6, relRow1=15
+Hammering 0x7ff46e40e000 and 0x7ff46e44a000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e42c040[65] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e42c200[529] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e42c940[2423] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42cac0[2754] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e42cc00[3087] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42cc80[3230] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42cec0[3785] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e42d080[4268] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e42d100[4409] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e42d400[5122] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e42d400[5147] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e42d440[5202] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e42d580[5559] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e42d840[6221] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e42d940[6518] 0xff->0xfe
+Hammering 0x7ff46e42c000 and 0x7ff46e468000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e44a0c0[224] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44a700[1800] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e44a780[1929] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e44a800[2097] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e44a9c0[2539] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44aac0[2777] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e44ac80[3216] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e44af00[3903] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e44af80[4004] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e44b0c0[4308] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e44b440[5191] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e44b480[5251] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e44b480[5264] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e44b580[5547] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e44b600[5643] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44b600[5664] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e44bc40[7237] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e44bd40[7499] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e44be80[7834] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e44bf80[8085] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e44bf80[8101] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e44bfc0[8133] 0xff->0xef
+Hammering 0x7ff46e44a000 and 0x7ff46e486000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e468240[579] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4682c0[755] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e468300[823] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e468740[1874] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e468a40[2643] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e468c80[3222] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e468d00[3346] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e468dc0[3565] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4691c0[4604] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e469280[4782] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4692c0[4803] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e469600[5678] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e469780[6031] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e469840[6254] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e469900[6438] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e469980[6570] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e469f80[8103] 0xff->0x7f
+Hammering 0x7ff46e468000 and 0x7ff46e4a4000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e486140[328] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e486640[1640] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e486b00[2870] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e486cc0[3270] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4870c0[4320] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e487300[4874] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4873c0[5115] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e487580[5555] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e487c00[7230] 0xff->0xbf
+Hammering 0x7ff46e486000 and 0x7ff46e4c2000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4a4340[888] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4a43c0[1015] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a4580[1414] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a4600[1582] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a4600[1587] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a48c0[2258] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a4b40[2914] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a4d80[3460] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a5080[4262] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4a5240[4726] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a52c0[4808] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4a5480[5276] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a57c0[6131] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a5980[6546] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a5a00[6706] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4a5a40[6778] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4a5a40[6782] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4a5ac0[6900] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a5ac0[6902] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4a5d00[7466] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4a5d80[7554] 0xff->0xf7
+Hammering 0x7ff46e4a4000 and 0x7ff46e4e0000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4c2180[394] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c2200[574] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c2240[585] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c2640[1629] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c2800[2088] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4c2800[2091] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c2840[2146] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c28c0[2249] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c2a40[2666] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c2b80[2991] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c2bc0[3054] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c2e40[3674] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c3340[4979] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c34c0[5342] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c3500[5381] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4c3500[5382] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4c3600[5661] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4c3780[6056] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4c3840[6260] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c38c0[6384] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c3b40[7021] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4c3c80[7310] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4c3ec0[7888] 0xff->0xef
+Hammering 0x7ff46e4c2000 and 0x7ff46e5d2000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4e0580[1430] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e0600[1551] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4e0740[1882] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4e07c0[2039] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4e0900[2365] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4e0ec0[3821] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4e1640[5729] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4e1840[6240] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4e1a40[6759] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4e1e80[7847] 0xff->0xef
+Hammering 0x7ff46e4e0000 and 0x7ff46e5f0000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5d2240[616] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5d2480[1170] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5d2480[1208] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5d29c0[2531] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5d2a00[2569] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5d3a40[6735] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5d3c00[7194] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5d3c80[7337] 0xff->0xef
+Hammering 0x7ff46e5d2000 and 0x7ff46e596000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=8
+[0]Found bitflip addr[0]=0x7ff46e5f03c0[991] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f05c0[1518] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f0800[2064] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f0a80[2688] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5f0c80[3219] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5f0d80[3516] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5f1100[4355] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f14c0[5361] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5f15c0[5600] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5f19c0[6599] 0xff->0xfe
+Hammering 0x7ff46e5f0000 and 0x7ff46e5b4000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=9
+[0]Found bitflip addr[0]=0x7ff46e596080[177] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5965c0[1472] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e596dc0[3552] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e597240[4688] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5974c0[5360] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5975c0[5574] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e597ac0[6878] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e597b40[6981] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e597c40[7249] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e597f80[8118] 0xff->0xfd
+Hammering 0x7ff46e596000 and 0x7ff46e55a000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=10
+[0]Found bitflip addr[0]=0x7ff46e5b4240[580] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5b42c0[729] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b4540[1374] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b4980[2466] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5b4cc0[3293] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b4dc0[3545] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b4ec0[3786] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5b4f40[3930] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b5100[4361] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5b5140[4471] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b51c0[4552] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b5240[4685] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5b5580[5533] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5b5700[5938] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5b5b40[7024] 0xff->0xbf
+Hammering 0x7ff46e5b4000 and 0x7ff46e578000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=11
+[0]Found bitflip addr[0]=0x7ff46e55a100[302] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55a2c0[706] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e55a300[795] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e55a340[858] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55a580[1440] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e55a740[1901] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55a8c0[2288] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55aa00[2570] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55aa00[2571] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55ac80[3249] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e55acc0[3282] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e55b080[4234] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e55b140[4416] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e55b280[4761] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e55b540[5453] 0xff->0xfb
+Hammering 0x7ff46e55a000 and 0x7ff46e51e000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=12
+[0]Found bitflip addr[0]=0x7ff46e578040[112] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5781c0[501] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5783c0[960] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e578480[1179] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5786c0[1741] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e578840[2167] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e578a80[2720] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e578a80[2723] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e578b00[2822] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e578b80[2954] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e578c80[3239] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e578cc0[3264] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e578f80[4019] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5790c0[4290] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e579180[4483] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5792c0[4802] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e579480[5296] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e579ac0[6903] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e579bc0[7145] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e579c00[7173] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e579c40[7234] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e579ec0[7901] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e579fc0[8137] 0xff->0xfb
+Hammering 0x7ff46e578000 and 0x7ff46e53c000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=13
+[0]Found bitflip addr[0]=0x7ff46e51e340[843] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e51e380[920] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51e3c0[986] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e51e540[1369] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e51e640[1631] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51eb40[2896] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e51ec40[3146] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e51ee40[3685] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e51eec0[3800] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51ef80[4009] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51f1c0[4569] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51f580[5504] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e51f580[5512] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e51f6c0[5887] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51f980[6573] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e51f980[6582] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e51fd80[7592] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e51fe00[7723] 0xff->0xfe
+Hammering 0x7ff46e51e000 and 0x7ff46e410000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=14
+Hammering 0x7ff46e53c000 and 0x7ff46e432000 -> Channel=0, Dimm=0, Rank=0, Bank=7, relRow1=15
+Hammering 0x7ff46e410000 and 0x7ff46e454000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e432240[434] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e432700[2858] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e433080[4196] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4333c0[5082] 0xff->0x7f
+Hammering 0x7ff46e432000 and 0x7ff46e476000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e454500[2605] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e454ec0[3528] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e455140[4765] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e455340[4994] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e455580[6762] 0xff->0x7f
+Hammering 0x7ff46e454000 and 0x7ff46e498000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e476380[869] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e476400[2093] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e476680[2418] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e476640[2469] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e476c40[3227] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e477040[4264] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e477600[6442] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4775c0[6903] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e477780[7036] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4777c0[7118] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e477cc0[7410] 0xff->0xfe
+Hammering 0x7ff46e476000 and 0x7ff46e4ba000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e498080[97] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e498cc0[3313] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e498ec0[3583] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e499280[4419] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e499680[6478] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e499680[6513] 0xff->0x7f
+Hammering 0x7ff46e498000 and 0x7ff46e4dc000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4ba280[371] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4ba240[445] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4ba100[544] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4ba3c0[968] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ba7c0[3044] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4badc0[3780] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4bb280[4447] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4bb240[4524] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4bb680[6500] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4bb540[6827] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4bb7c0[7134] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4bbc00[7217] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4bbcc0[7402] 0xff->0xef
+Hammering 0x7ff46e4ba000 and 0x7ff46e4fe000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4dc180[613] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4dc440[2228] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4dccc0[3290] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4dcf80[3959] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4dd2c0[4554] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4dd1c0[4827] 0xff->0xef
+Hammering 0x7ff46e4dc000 and 0x7ff46e5cc000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4fe200[287] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4fe2c0[505] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4fec80[3181] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4fee40[3505] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4ff200[4388] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4ff200[4404] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4ff6c0[6595] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4ffe40[7570] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4ffd40[7860] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4fff00[7965] 0xff->0xf7
+Hammering 0x7ff46e4fe000 and 0x7ff46e5ee000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5ccc40[3214] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ccdc0[3795] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5cd180[4678] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5cd6c0[6652] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5cd700[6929] 0xff->0xfb
+Hammering 0x7ff46e5cc000 and 0x7ff46e588000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5ee240[409] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5eefc0[4073] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5ef300[4888] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5efe40[7578] 0xff->0xbf
+Hammering 0x7ff46e5ee000 and 0x7ff46e5aa000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e588340[897] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5883c0[963] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e588700[2827] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e588e80[3429] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e589180[4706] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5894c0[6386] 0xff->0xfe
+Hammering 0x7ff46e588000 and 0x7ff46e544000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5ab240[4527] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5ab480[6254] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ab580[6751] 0xff->0xbf
+Hammering 0x7ff46e5aa000 and 0x7ff46e566000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e5440c0[226] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e544740[2997] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e544e00[3352] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e544f00[3890] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e544f40[3973] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5453c0[5069] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e545480[6247] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e545640[6583] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e545500[6705] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e545540[6810] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e545540[6813] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e545700[6922] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e545780[6999] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e545780[7019] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e545ec0[7634] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e545f00[7986] 0xff->0xfe
+Hammering 0x7ff46e544000 and 0x7ff46e500000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e566dc0[3814] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e567140[4795] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e567680[6467] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e567540[6805] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e567e80[7537] 0xff->0xfe
+Hammering 0x7ff46e566000 and 0x7ff46e522000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e5002c0[454] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e500980[1607] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5009c0[1774] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e500b80[1894] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5006c0[2506] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e500c80[3187] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e500f40[3985] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e501300[4920] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e501440[6282] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e501500[6718] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e501c80[7257] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e501f00[7939] 0xff->0xef
+Hammering 0x7ff46e500000 and 0x7ff46e414000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=22
+Hammering 0x7ff46e522000 and 0x7ff46e436000 -> Channel=0, Dimm=0, Rank=1, Bank=0, relRow1=23
+Hammering 0x7ff46e414000 and 0x7ff46e450000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e436240[418] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e436400[2071] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e436e00[3376] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e436f40[3968] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e437080[4198] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e437500[6716] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e437580[6770] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e437700[6951] 0xff->0xfd
+Hammering 0x7ff46e436000 and 0x7ff46e472000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e450200[312] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e450380[862] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4503c0[992] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e450e40[3486] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e451200[4382] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e451280[4418] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e451180[4713] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e451c00[7187] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e451e00[7434] 0xff->0xfe
+Hammering 0x7ff46e450000 and 0x7ff46e49c000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e4722c0[501] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e472440[2179] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e472500[2591] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e472cc0[3268] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e473040[4270] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e473200[4353] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e473680[6468] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e473680[6505] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e473e80[7504] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e473f40[8112] 0xff->0xdf
+Hammering 0x7ff46e472000 and 0x7ff46e4be000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e49c140[690] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e49c300[818] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e49c680[2396] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e49c7c0[3015] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e49cf00[3845] 0xff->0xfb
+Hammering 0x7ff46e49c000 and 0x7ff46e4d8000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4be440[2182] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4be640[2465] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4beec0[3553] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4bf040[4281] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4bf4c0[6378] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4bf500[6708] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4bfd00[7722] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4bfd40[7861] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4bff80[8014] 0xff->0xfd
+Hammering 0x7ff46e4be000 and 0x7ff46e4fa000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4d8240[424] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d8540[2702] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d9080[4180] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4d9780[7011] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4d9fc0[8144] 0xff->0xef
+Hammering 0x7ff46e4d8000 and 0x7ff46e5c8000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4fa480[2139] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4fae80[3397] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4fb1c0[4842] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4fb4c0[6389] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4fb680[6481] 0xff->0xfe
+Hammering 0x7ff46e4fa000 and 0x7ff46e5ea000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5c8640[2445] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5c8700[2868] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5c8ec0[3582] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5c9640[6543] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5c9f80[8043] 0xff->0xdf
+Hammering 0x7ff46e5c8000 and 0x7ff46e58c000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5ea180[613] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5ea340[924] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ea400[2050] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5ea640[2491] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5ea540[2724] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5ea780[2903] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5ea740[2965] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5eae80[3446] 0xff->0x7f
+Hammering 0x7ff46e5ea000 and 0x7ff46e5ae000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e58c0c0[197] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e58d680[6478] 0xff->0xef
+Hammering 0x7ff46e58c000 and 0x7ff46e540000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5ae380[890] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5aedc0[3813] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5af2c0[4547] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5af3c0[5078] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5afe40[7602] 0xff->0xbf
+Hammering 0x7ff46e5ae000 and 0x7ff46e562000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e540680[2396] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e540c00[3106] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e540c00[3115] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e541340[5016] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e541400[6150] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e541700[6962] 0xff->0xef
+Hammering 0x7ff46e540000 and 0x7ff46e504000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e5622c0[481] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5621c0[712] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e562400[2057] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e562f80[3955] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5630c0[4324] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e563640[6578] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e563700[6912] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e563700[6930] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e563740[7074] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e563f00[7940] 0xff->0xfb
+Hammering 0x7ff46e562000 and 0x7ff46e526000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e5043c0[963] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e504cc0[3265] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e505240[4497] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e505780[6986] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e505cc0[7408] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e505e80[7533] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e505d00[7703] 0xff->0xfd
+Hammering 0x7ff46e504000 and 0x7ff46e412000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=22
+Hammering 0x7ff46e526000 and 0x7ff46e430000 -> Channel=0, Dimm=0, Rank=1, Bank=1, relRow1=23
+Hammering 0x7ff46e412000 and 0x7ff46e456000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e430380[882] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e430740[2947] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e431d80[7797] 0xff->0xbf
+Hammering 0x7ff46e430000 and 0x7ff46e474000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e456300[820] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e456c00[3122] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e457580[6764] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e457e40[7563] 0xff->0xfd
+Hammering 0x7ff46e456000 and 0x7ff46e49a000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e474580[2632] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e474c40[3225] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e474cc0[3279] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e474d80[3678] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e475300[4926] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e475340[4993] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e475400[6170] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e475540[6810] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e475780[7010] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e475740[7080] 0xff->0xdf
+Hammering 0x7ff46e474000 and 0x7ff46e4b8000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e49a040[170] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e49a300[781] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e49a3c0[982] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e49a540[2706] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e49a5c0[2778] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e49af00[3858] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e49b200[4395] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e49b240[4521] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e49b180[4701] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e49b140[4762] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e49bd00[7711] 0xff->0xfe
+Hammering 0x7ff46e49a000 and 0x7ff46e4de000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4b8640[2480] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4b8d80[3709] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b8d40[3759] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b94c0[6377] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4b9740[7083] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4b9c00[7230] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4b9ec0[7662] 0xff->0xfe
+Hammering 0x7ff46e4b8000 and 0x7ff46e4fc000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4de340[904] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4de600[2306] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4dec40[3252] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4dee00[3387] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4df300[4922] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4df4c0[6344] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4df600[6423] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4df680[6525] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4dfe40[7577] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4dfd80[7801] 0xff->0xf7
+Hammering 0x7ff46e4de000 and 0x7ff46e5ce000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4fc0c0[210] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4fc600[2309] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4fcc00[3109] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4fcc80[3156] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4fd040[4280] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4fd380[4991] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4fd640[6581] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4fd780[7032] 0xff->0xfe
+Hammering 0x7ff46e4fc000 and 0x7ff46e5ec000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5cecc0[3286] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5cee80[3396] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5ceec0[3553] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5ced00[3623] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5cf600[6402] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5cf6c0[6616] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5cf5c0[6883] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5cf780[7000] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5cf780[7031] 0xff->0xdf
+Hammering 0x7ff46e5ce000 and 0x7ff46e58a000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5ecfc0[4078] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ed380[4984] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5ed400[6179] 0xff->0x7f
+Hammering 0x7ff46e5ec000 and 0x7ff46e5a8000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e58a080[107] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e58a240[401] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e58a6c0[2526] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e58a5c0[2771] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e58a5c0[2776] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e58ac00[3080] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e58b140[4743] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e58b4c0[6375] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e58b600[6452] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e58b7c0[7128] 0xff->0xfe
+Hammering 0x7ff46e58a000 and 0x7ff46e546000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5a8280[382] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5a8700[2850] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5a8ec0[3570] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5a8fc0[4040] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5a9240[4499] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5a9380[4974] 0xff->0xdf
+Hammering 0x7ff46e5a8000 and 0x7ff46e564000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e546140[690] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e546300[785] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e546500[2610] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5467c0[3061] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e547e40[7605] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e547d00[7711] 0xff->0xfe
+Hammering 0x7ff46e546000 and 0x7ff46e502000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e5640c0[230] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e564e00[3369] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e565680[6498] 0xff->0xbf
+Hammering 0x7ff46e564000 and 0x7ff46e520000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e5023c0[1002] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e502600[2306] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5025c0[2777] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e502c40[3235] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e502c40[3240] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e502d40[3761] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e502dc0[3786] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e502f40[3976] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e503340[5042] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e503dc0[7890] 0xff->0x7f
+Hammering 0x7ff46e502000 and 0x7ff46e416000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=22
+Hammering 0x7ff46e520000 and 0x7ff46e434000 -> Channel=0, Dimm=0, Rank=1, Bank=2, relRow1=23
+Hammering 0x7ff46e416000 and 0x7ff46e452000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e434580[2651] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e434c00[3090] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e434c00[3117] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e434c80[3173] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e434d40[3725] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e435c80[7281] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e435e40[7554] 0xff->0xf7
+Hammering 0x7ff46e434000 and 0x7ff46e470000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e4527c0[3045] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e452e00[3379] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e452fc0[4054] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e453700[6962] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e453780[7004] 0xff->0xbf
+Hammering 0x7ff46e452000 and 0x7ff46e49e000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e471500[6666] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e471ec0[7653] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e471dc0[7875] 0xff->0xbf
+Hammering 0x7ff46e470000 and 0x7ff46e4bc000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e49e3c0[1008] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e49e680[2374] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e49e680[2409] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e49edc0[3796] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e49ef40[4021] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e49f4c0[6390] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e49fe40[7555] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e49ff40[8091] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e49ff40[8107] 0xff->0xf7
+Hammering 0x7ff46e49e000 and 0x7ff46e4da000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4bc080[78] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4bc700[2837] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4bcf40[3979] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4bcfc0[4061] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4bd440[6298] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4bd4c0[6381] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4bd580[6722] 0xff->0xdf
+Hammering 0x7ff46e4bc000 and 0x7ff46e4f8000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4da100[556] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4da300[788] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4db480[6229] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4dbc40[7340] 0xff->0xfb
+Hammering 0x7ff46e4da000 and 0x7ff46e5ca000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4f8400[2079] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f8780[2910] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4f8780[2914] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4f8ec0[3570] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f8f40[4028] 0xff->0xdf
+Hammering 0x7ff46e4f8000 and 0x7ff46e5e8000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5ca280[360] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5ca2c0[502] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ca5c0[2755] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5cb600[6447] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5cb580[6758] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5cb700[6913] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5cbc00[7172] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5cbc40[7346] 0xff->0xfd
+Hammering 0x7ff46e5ca000 and 0x7ff46e58e000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5e80c0[237] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5e8480[2146] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5e85c0[2796] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5e8cc0[3309] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5e9280[4426] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5e9740[7064] 0xff->0xfd
+Hammering 0x7ff46e5e8000 and 0x7ff46e5ac000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e58e280[367] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e58e280[368] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e58e6c0[2516] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e58edc0[3789] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e58edc0[3792] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e58f6c0[6600] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e58f500[6690] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e58fcc0[7400] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e58fe00[7441] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e58fd40[7818] 0xff->0x7f
+Hammering 0x7ff46e58e000 and 0x7ff46e542000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5ac280[356] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5ac640[2476] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ad080[4186] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5ad040[4260] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5ad1c0[4842] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5adf80[8052] 0xff->0xfb
+Hammering 0x7ff46e5ac000 and 0x7ff46e560000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e542040[160] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e542280[350] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5422c0[479] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e542400[2079] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e543040[4275] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e543200[4388] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e543400[6184] 0xff->0x7f
+Hammering 0x7ff46e542000 and 0x7ff46e506000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e560680[2375] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5606c0[2547] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e561100[4645] 0xff->0xbf
+Hammering 0x7ff46e560000 and 0x7ff46e524000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e506240[386] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e506680[2423] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e506580[2624] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e506d00[3587] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e507240[4543] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e507180[4724] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e507300[4901] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e507780[7025] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e507e00[7432] 0xff->0xf7
+Hammering 0x7ff46e506000 and 0x7ff46e418000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=22
+Hammering 0x7ff46e524000 and 0x7ff46e43a000 -> Channel=0, Dimm=0, Rank=1, Bank=3, relRow1=23
+Hammering 0x7ff46e418000 and 0x7ff46e45c000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e43a2c0[458] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e43a1c0[706] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e43a4c0[2266] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e43a7c0[3058] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e43b200[4357] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e43b240[4482] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e43b1c0[4855] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e43b400[6176] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e43be40[7558] 0xff->0xef
+Hammering 0x7ff46e43a000 and 0x7ff46e47e000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e45c300[809] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e45c4c0[2280] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e45c600[2334] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e45c780[2923] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e45cc00[3119] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e45cc80[3141] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e45ce40[3497] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e45cd80[3677] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e45cdc0[3818] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e45d080[4210] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e45d640[6586] 0xff->0xbf
+Hammering 0x7ff46e45c000 and 0x7ff46e490000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e47e700[2851] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e47ef40[3986] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e47f0c0[4304] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e47fc40[7311] 0xff->0xfd
+Hammering 0x7ff46e47e000 and 0x7ff46e4b2000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e4902c0[461] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4902c0[467] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4901c0[754] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e490640[2475] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e490c00[3135] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e490cc0[3316] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e490d40[3772] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e490f80[3945] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e490fc0[4060] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e491200[4407] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e491280[4435] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e491180[4719] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4916c0[6642] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e491e40[7605] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e491dc0[7891] 0xff->0xfe
+Hammering 0x7ff46e490000 and 0x7ff46e4d4000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4b2280[375] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b2180[632] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4b2680[2421] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4b2540[2732] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4b3280[4436] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4b3280[4464] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4b3640[6528] 0xff->0xfd
+Hammering 0x7ff46e4b2000 and 0x7ff46e4f6000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4d46c0[2496] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d4e80[3408] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d4e80[3430] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d4ec0[3560] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4d5100[4637] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4d5300[4871] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d5300[4882] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4d55c0[6865] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4d5ec0[7618] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d5d40[7826] 0xff->0x7f
+Hammering 0x7ff46e4d4000 and 0x7ff46e5c4000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4f6200[294] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4f6c80[3139] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4f6f00[3892] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f6f00[3894] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f7200[4352] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f7fc0[8162] 0xff->0xfe
+Hammering 0x7ff46e4f6000 and 0x7ff46e5e6000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5c4cc0[3277] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5c4f80[3905] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5c5480[6215] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5c56c0[6647] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5c5c80[7233] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5c5dc0[7926] 0xff->0xfb
+Hammering 0x7ff46e5c4000 and 0x7ff46e580000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5e6480[2128] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e6680[2377] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5e6740[3003] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e6d80[3675] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e6f80[3949] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5e7680[6497] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5e7580[6731] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5e77c0[7134] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e7c40[7328] 0xff->0xfb
+Hammering 0x7ff46e5e6000 and 0x7ff46e5a2000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e580080[106] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e580d80[3693] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e581200[4371] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5814c0[6353] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e581540[6822] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5817c0[7114] 0xff->0xbf
+Hammering 0x7ff46e580000 and 0x7ff46e54c000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5a2040[177] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5a2c00[3135] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5a2fc0[4039] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5a3180[4701] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5a3580[6720] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5a3700[6948] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5a3d40[7824] 0xff->0xfe
+Hammering 0x7ff46e5a2000 and 0x7ff46e56e000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e54c380[856] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e54c4c0[2248] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e54c700[2823] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e54cc40[3225] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e54d280[4438] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e54d180[4685] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e54d1c0[4854] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e54d480[6214] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e54d6c0[6597] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e54d700[6961] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e54d740[7077] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e54dd80[7760] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e54ddc0[7932] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e54df00[7946] 0xff->0xf7
+Hammering 0x7ff46e54c000 and 0x7ff46e508000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e56e240[389] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e56e100[573] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e56e140[699] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56e340[936] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e56e4c0[2240] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e56e640[2474] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e56e5c0[2782] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e56e780[2934] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e56ec00[3099] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56ecc0[3316] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e56eec0[3538] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e56ed00[3640] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e56efc0[4059] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e56f0c0[4288] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56f200[4358] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e56f480[6208] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e56f580[6744] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56f7c0[7114] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e56fe40[7558] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e56fd00[7707] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e56fd40[7833] 0xff->0x7f
+Hammering 0x7ff46e56e000 and 0x7ff46e52a000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e508280[348] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e508340[949] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e508c40[3217] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e508d00[3610] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e509400[6193] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e509f80[8015] 0xff->0xfd
+Hammering 0x7ff46e508000 and 0x7ff46e41c000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=22
+Hammering 0x7ff46e52a000 and 0x7ff46e43e000 -> Channel=0, Dimm=0, Rank=1, Bank=4, relRow1=23
+Hammering 0x7ff46e41c000 and 0x7ff46e458000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e43e340[940] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e43e400[2071] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e43e600[2312] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e43e680[2370] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e43e780[2919] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e43e740[2982] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e43ee80[3392] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e43f240[4488] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e43f400[6162] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e43f580[6722] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e43f740[7088] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e43f7c0[7134] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e43fe40[7576] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e43fd00[7714] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e43fd80[7801] 0xff->0xbf
+Hammering 0x7ff46e43e000 and 0x7ff46e47a000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e458180[630] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e458740[2951] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e458f00[3901] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4591c0[4818] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e459380[4944] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e459480[6251] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e459640[6545] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e459780[7035] 0xff->0xdf
+Hammering 0x7ff46e458000 and 0x7ff46e494000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e47a080[104] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e47a500[2611] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e47aec0[3565] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e47b1c0[4808] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e47bc80[7232] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e47bc80[7275] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e47bc40[7336] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e47bec0[7648] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e47bd80[7775] 0xff->0xbf
+Hammering 0x7ff46e47a000 and 0x7ff46e4b6000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e494580[2649] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e494cc0[3302] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e494f40[4017] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e495140[4789] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e495380[4978] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4954c0[6371] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e495500[6707] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e495740[7090] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e495e40[7557] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e495ec0[7672] 0xff->0x7f
+Hammering 0x7ff46e494000 and 0x7ff46e4d0000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4b6280[334] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b61c0[754] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b6380[887] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b6480[2115] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4b6480[2141] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b6780[2912] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b6c80[3190] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b7280[4470] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4b7240[4504] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b7100[4649] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4b7140[4776] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b7780[7035] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b7740[7088] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4b7f40[8072] 0xff->0x7f
+Hammering 0x7ff46e4b6000 and 0x7ff46e4f2000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4d0440[2188] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4d0600[2330] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4d0dc0[3814] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4d1240[4520] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4d1500[6685] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d1540[6790] 0xff->0xbf
+Hammering 0x7ff46e4d0000 and 0x7ff46e5c0000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4f2d40[3752] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4f2f40[3980] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f3080[4183] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4f3280[4418] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f3300[4889] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4f3440[6298] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4f3700[6960] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4f3e00[7440] 0xff->0xdf
+Hammering 0x7ff46e4f2000 and 0x7ff46e5e2000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5c0240[433] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5c0180[579] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5c01c0[728] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5c0700[2856] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5c0c00[3077] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5c0ec0[3546] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5c0fc0[4076] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5c1400[6161] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5c1440[6320] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5c15c0[6880] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5c17c0[7158] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5c1f00[7936] 0xff->0xfe
+Hammering 0x7ff46e5c0000 and 0x7ff46e584000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5e2100[562] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5e2140[703] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5e2500[2570] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5e2f40[3994] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5e3280[4448] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5e3340[5040] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5e3600[6434] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5e3580[6766] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5e3d40[7830] 0xff->0xef
+Hammering 0x7ff46e5e2000 and 0x7ff46e5a6000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e5841c0[730] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e584600[2324] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e584500[2615] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5845c0[2787] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e585700[6936] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e585f80[8040] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e585fc0[8145] 0xff->0xfb
+Hammering 0x7ff46e584000 and 0x7ff46e548000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5a6c00[3134] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5a6f00[3880] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5a7c80[7284] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5a7e00[7430] 0xff->0xf7
+Hammering 0x7ff46e5a6000 and 0x7ff46e56a000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e548200[271] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e548340[927] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e548580[2630] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e548c00[3115] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e548c80[3144] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e549280[4459] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e549240[4480] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e549780[6986] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e549e80[7537] 0xff->0xfb
+Hammering 0x7ff46e548000 and 0x7ff46e50c000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e56a000[32] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e56a0c0[243] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e56a200[307] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e56a8c0[1274] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e56abc0[2014] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e56a480[2113] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e56a500[2582] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e56b1c0[4821] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e56b600[6451] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e56b680[6490] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56b700[6950] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e56b700[6963] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e56b780[7029] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e56be80[7514] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e56be80[7529] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e56be40[7575] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56bf80[8024] 0xff->0xbf
+Hammering 0x7ff46e56a000 and 0x7ff46e52e000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e50c240[422] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e50c440[2218] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e50c540[2728] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e50cd00[3625] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e50cd80[3677] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e50d300[4910] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e50d640[6576] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e50dd00[7726] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e50dd00[7743] 0xff->0xfb
+Hammering 0x7ff46e50c000 and 0x7ff46e41a000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=22
+Hammering 0x7ff46e52e000 and 0x7ff46e438000 -> Channel=0, Dimm=0, Rank=1, Bank=5, relRow1=23
+Hammering 0x7ff46e41a000 and 0x7ff46e45e000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e438200[271] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4382c0[485] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e438680[2382] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e438dc0[3798] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e439200[4386] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e439280[4464] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e439400[6183] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e439580[6750] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4397c0[7154] 0xff->0xfe
+Hammering 0x7ff46e438000 and 0x7ff46e47c000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e45e280[345] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e45e140[688] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e45e5c0[2815] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e45ecc0[3307] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e45ef00[3844] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e45f180[4714] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e45f1c0[4846] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e45f300[4865] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e45fd00[7712] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e45fd80[7792] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e45fdc0[7887] 0xff->0xfd
+Hammering 0x7ff46e45e000 and 0x7ff46e492000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e47c0c0[226] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e47d0c0[4309] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e47d240[4509] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e47d4c0[6338] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e47dc40[7352] 0xff->0xef
+Hammering 0x7ff46e47c000 and 0x7ff46e4b0000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e492180[632] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4921c0[756] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e492800[1049] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e492980[1611] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e492980[1614] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e492c40[3261] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e493080[4176] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e493340[5032] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e493480[6245] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e493440[6324] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e493600[6426] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e493680[6512] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e493e00[7448] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e493f00[7970] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e493fc0[8176] 0xff->0xdf
+Hammering 0x7ff46e492000 and 0x7ff46e4d6000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4b0280[369] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b0180[621] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4b0140[675] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4b01c0[743] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4b0600[2305] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4b06c0[2551] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4b05c0[2755] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b0f80[3938] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4b0fc0[4089] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4b11c0[4803] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b1340[5018] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4b1600[6442] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4b17c0[7127] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b1c80[7239] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b1cc0[7368] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4b1d80[7749] 0xff->0xfb
+Hammering 0x7ff46e4b0000 and 0x7ff46e4f4000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4d6040[128] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4d6300[826] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d66c0[2559] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4d67c0[3015] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d6c40[3250] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4d7080[4160] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4d7480[6232] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d7480[6263] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d7440[6297] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4d7640[6591] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4d7f40[8110] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4d7fc0[8174] 0xff->0xfe
+Hammering 0x7ff46e4d6000 and 0x7ff46e5c6000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4f4400[2097] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4f45c0[2808] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f4740[2992] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4f4e40[3459] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4f5200[4407] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f5180[4711] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4f5140[4778] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4f5480[6220] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f54c0[6370] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4f5540[6819] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e4f5c40[7318] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f5e80[7514] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e4f5e40[7597] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4f5ec0[7664] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f5ec0[7666] 0xff->0xdf
+Hammering 0x7ff46e4f4000 and 0x7ff46e5e4000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5c6300[818] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5c6ec0[3571] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5c72c0[4552] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5c7680[6466] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5c7640[6549] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5c7740[7078] 0xff->0xf7
+Hammering 0x7ff46e5c6000 and 0x7ff46e582000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5e4100[523] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5e4680[2385] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5e4700[2846] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5e4f00[3854] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5e5200[4368] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5e5400[6147] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5e5600[6401] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5e56c0[6636] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5e5c00[7217] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5e5c80[7279] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e5cc0[7367] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e5e80[7538] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5e5d40[7811] 0xff->0xef
+Hammering 0x7ff46e5e4000 and 0x7ff46e5a0000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e5820c0[202] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e582600[2318] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5825c0[2778] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e583200[4381] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e583440[6306] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e583600[6414] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e583580[6760] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e583740[7057] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5837c0[7128] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e583cc0[7423] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e583f80[8050] 0xff->0xf7
+Hammering 0x7ff46e582000 and 0x7ff46e54e000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5a0300[781] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5a03c0[982] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5a0680[2420] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5a0d00[3597] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5a1400[6173] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5a1480[6248] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5a1c00[7184] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5a1e80[7496] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e5a1f80[8032] 0xff->0xef
+Hammering 0x7ff46e5a0000 and 0x7ff46e56c000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e54e0c0[254] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e54e240[426] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e54e480[2154] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e54e7c0[3061] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e54eec0[3531] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e54ed40[3740] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e54ef00[3852] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e54f100[4641] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e54f400[6184] 0xff->0x7f
+Hammering 0x7ff46e54e000 and 0x7ff46e50a000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e56c300[792] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e56ce40[3475] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e56cd00[3633] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56d600[6429] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e56d680[6512] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e56d700[6956] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e56de80[7530] 0xff->0xfd
+Hammering 0x7ff46e56c000 and 0x7ff46e528000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e50a680[2368] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e50ac00[3114] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e50af00[3886] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e50b080[4203] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e50b380[4989] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e50b4c0[6383] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e50b680[6467] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e50b6c0[6643] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e50be80[7491] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e50bd00[7699] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e50bf80[8048] 0xff->0xef
+Hammering 0x7ff46e50a000 and 0x7ff46e41e000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=22
+Hammering 0x7ff46e528000 and 0x7ff46e43c000 -> Channel=0, Dimm=0, Rank=1, Bank=6, relRow1=23
+Hammering 0x7ff46e41e000 and 0x7ff46e45a000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=0
+[0]Found bitflip addr[0]=0x7ff46e43c080[112] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e43c140[670] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e43cdc0[3831] 0xff->0xfb
+Hammering 0x7ff46e43c000 and 0x7ff46e478000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=1
+[0]Found bitflip addr[0]=0x7ff46e45a440[2237] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e45adc0[3776] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e45b440[6293] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e45b680[6498] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e45b540[6845] 0xff->0xfe
+Hammering 0x7ff46e45a000 and 0x7ff46e496000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=2
+[0]Found bitflip addr[0]=0x7ff46e478700[2864] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4787c0[3056] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e478d80[3702] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e479280[4447] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4792c0[4603] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e479440[6332] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e479c00[7168] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e479f00[7947] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e479f40[8078] 0xff->0xf7
+Hammering 0x7ff46e478000 and 0x7ff46e4b4000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=3
+[0]Found bitflip addr[0]=0x7ff46e496300[777] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e496300[808] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e496c00[3134] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e496d80[3698] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e497140[4751] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4977c0[7136] 0xff->0xfb
+Hammering 0x7ff46e496000 and 0x7ff46e4d2000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=4
+[0]Found bitflip addr[0]=0x7ff46e4b5200[4386] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4b51c0[4810] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b53c0[5069] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4b5480[6224] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4b5580[6773] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4b5700[6951] 0xff->0xfe
+Hammering 0x7ff46e4b4000 and 0x7ff46e4f0000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=5
+[0]Found bitflip addr[0]=0x7ff46e4d2500[2617] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4d2700[2816] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e4d2e80[3446] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4d2e40[3488] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4d2d40[3744] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4d3280[4421] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4d31c0[4838] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4d3ec0[7638] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4d3d00[7728] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4d3d80[7774] 0xff->0xfb
+Hammering 0x7ff46e4d2000 and 0x7ff46e5c2000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=6
+[0]Found bitflip addr[0]=0x7ff46e4f0140[696] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4f0380[858] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e4f0500[2589] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e4f1200[4384] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4f1280[4422] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4f1180[4711] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e4f1f00[7941] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e4f1f80[8018] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e4f1f80[8048] 0xff->0xf7
+Hammering 0x7ff46e4f0000 and 0x7ff46e5e0000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=7
+[0]Found bitflip addr[0]=0x7ff46e5c2240[438] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5c2500[2560] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5c25c0[2781] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5c2c00[3104] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5c2d00[3613] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5c2dc0[3812] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5c2f80[3909] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5c2fc0[4074] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5c3340[5040] 0xff->0xfe
+Hammering 0x7ff46e5c2000 and 0x7ff46e586000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=16
+[0]Found bitflip addr[0]=0x7ff46e5e0240[431] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5e0340[923] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5e0c80[3187] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5e0dc0[3776] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e5e0dc0[3816] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e5e1180[4701] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5e1500[6711] 0xff->0xfd
+Hammering 0x7ff46e5e0000 and 0x7ff46e5a4000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=17
+[0]Found bitflip addr[0]=0x7ff46e586200[296] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e586280[338] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5862c0[469] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e586100[551] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e587380[4934] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e587500[6659] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e587540[6818] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e587ec0[7659] 0xff->0xbf
+Hammering 0x7ff46e586000 and 0x7ff46e54a000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=18
+[0]Found bitflip addr[0]=0x7ff46e5a4280[320] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5a4480[2164] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5a4d80[3691] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e5a56c0[6644] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e5a55c0[6887] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5a5c80[7246] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e5a5d40[7859] 0xff->0xfe
+Hammering 0x7ff46e5a4000 and 0x7ff46e568000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=19
+[0]Found bitflip addr[0]=0x7ff46e54ac40[3247] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e54acc0[3270] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e54af80[3912] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e54af40[4013] 0xff->0xef
+[0]Found bitflip addr[0]=0x7ff46e54b040[4224] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e54b200[4389] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e54b480[6254] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e54b540[6822] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e54b740[7050] 0xff->0x7f
+Hammering 0x7ff46e54a000 and 0x7ff46e50e000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=20
+[0]Found bitflip addr[0]=0x7ff46e568700[2866] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e568cc0[3264] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e568d80[3698] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e569300[4898] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e569400[6152] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e569680[6523] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e5696c0[6632] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e5695c0[6862] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e569e80[7511] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e569d00[7714] 0xff->0xfd
+Hammering 0x7ff46e568000 and 0x7ff46e52c000 -> Channel=0, Dimm=0, Rank=1, Bank=7, relRow1=21
+[0]Found bitflip addr[0]=0x7ff46e50e180[604] 0xff->0xfb
+[0]Found bitflip addr[0]=0x7ff46e50e700[2879] 0xff->0xfd
+[0]Found bitflip addr[0]=0x7ff46e50ec40[3255] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e50edc0[3798] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e50f200[4405] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e50f480[6248] 0xff->0xdf
+[0]Found bitflip addr[0]=0x7ff46e50f600[6426] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e50f640[6562] 0xff->0x7f
+[0]Found bitflip addr[0]=0x7ff46e50f7c0[7125] 0xff->0xf7
+[0]Found bitflip addr[0]=0x7ff46e50fc40[7328] 0xff->0xfe
+[0]Found bitflip addr[0]=0x7ff46e50fec0[7664] 0xff->0xbf
+[0]Found bitflip addr[0]=0x7ff46e50fd40[7830] 0xff->0xbf
+Time is up
+Total bitflips=2297
+Total Tested Rows=254
