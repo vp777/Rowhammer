@@ -32,6 +32,8 @@ uint64_t BUFSIZE = (1 << 24);
 uint64_t MACCESS_ITERATIONS = 5000;
 uint64_t SAMPLE_SIZE = 8;
 uint64_t CALIBRATION_RUNS = 64;
+uint64_t TEST_ITERATIONS = 550000;
+uint64_t STRESS_ITERATIONS = 1700000;
 float THRESHOLD_MULT = 1.3;
 
 #define PAGE_SIZE 0x1000
@@ -133,12 +135,6 @@ uint64_t getRow(uint64_t paddr) {
 	return BITS(paddr, 31, 17);
 }
 
-static int page_row_cmp(const void *p1, const void *p2) {
-	const struct PAGE *page1 = (const struct PAGE*) p1;
-	const struct PAGE *page2 = (const struct PAGE*) p2;
-	return page1->row > page2->row?1:(page1->row == page2->row?0:-1);
-}
-
 static int u64cmp(const void *p1, const void *p2) {
 	const uint64_t v1=*(uint64_t const *) p1;
 	const uint64_t v2=*(uint64_t const *) p2;
@@ -192,6 +188,12 @@ size_t sbdr(uintptr_t oaddr, void *mem, size_t len, uintptr_t *set, size_t step)
 }
 
 #if DEBUG==1
+static int page_row_cmp(const void *p1, const void *p2) {
+	const struct PAGE *page1 = (const struct PAGE*) p1;
+	const struct PAGE *page2 = (const struct PAGE*) p2;
+	return page1->row > page2->row?1:(page1->row == page2->row?0:-1);
+}
+
 static void __attribute__((constructor)) checkPageMap() {
 	getPhysAddress((uintptr_t) checkPageMap);
 }
@@ -212,7 +214,7 @@ int main(int argc, char *argv[]) {
 	size_t n, i;
 
 	int opt;
-	while ((opt = getopt(argc, argv, "s:o:m:i:q:e:")) != -1) {
+	while ((opt = getopt(argc, argv, "s:o:m:i:q:b:B:e:")) != -1) {
 		switch (opt) {
 		case 's': {
 			char *end = NULL;
@@ -235,8 +237,18 @@ int main(int argc, char *argv[]) {
 			break;
 		}
 		case 'q': {
+				char *end = NULL;
+				SAMPLE_SIZE = strtoll(optarg, &end, 0);
+				break;
+			}
+		case 'b': {
 			char *end = NULL;
-			SAMPLE_SIZE = strtoll(optarg, &end, 0);
+			TEST_ITERATIONS = strtoll(optarg, &end, 0);
+			break;
+		}
+		case 'B': {
+			char *end = NULL;
+			STRESS_ITERATIONS = strtoll(optarg, &end, 0);
 			break;
 		}
 		case 'e': {
@@ -348,7 +360,7 @@ int main(int argc, char *argv[]) {
 			flush(uside, PAGE_SIZE);
 
 			const uintptr_t taddr[2] = { dside, uside };
-			hammer_double(taddr, 700000);
+			hammer_double(taddr, TEST_ITERATIONS);
 
 			//Now flush the l3 cache and check if we have any victims
 			int externalRun=0;
@@ -376,9 +388,9 @@ int main(int argc, char *argv[]) {
 					if (got != 0xff) {
 						if(!externalRun){
 							printf("++++++++++++++++++++\n");
-							hammer_double(taddr, 1700000);
+							hammer_double(taddr, STRESS_ITERATIONS);
 							sleep(2);
-							hammer_double(taddr, 1700000);
+							hammer_double(taddr, STRESS_ITERATIONS);
 							sleep(2);
 
 							externalRun++;
