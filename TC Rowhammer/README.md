@@ -14,7 +14,7 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
   -m THRESHOLD_MULT     the THRESHOLD_MULT creates the threshold for SBDR and non-SBDR pairs (default is 1.3)
   -i ITERATIONS         gather timings for SBDR pairs after ITERATIONS iterations (default is 5000)
   -b TEST_ITERATIONS    initially hammer the rows for TEST_ITERATIONS iterations (default is 550000)
-  -B STRESS_ITERATIONS   after a bit flip is found, hammer again the targets for STRESS_ITERATIONS (default is 1700000)
+  -B STRESS_ITERATIONS  after a bit flip is found, hammer again the targets for STRESS_ITERATIONS (default is 1700000)
   -q SAMPLE_SIZE        number of measurement to take from a given address pair (default is 8)
   -e SECS               stop the test after SECS seconds (by default stops when all the rows are tested)
 </pre>
