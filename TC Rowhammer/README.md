@@ -21,15 +21,15 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 
 ## Usage
 
-First build the tool by running:
+First build the tool by running one of the following options:
 
 	make
-    or
-	make debug
+    make ext #identification of pages within the same row
+	make debug #increased verbosity, requires root privileges
 
 Then run it by:
 
-	./tcrh [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-b <test_iterations>] [-B <stress_iterations>] [-q <sample_size>] [-e <run_time>]
+	./tcrh<_ext> [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-b <test_iterations>] [-B <stress_iterations>] [-q <sample_size>] [-e <run_time>]
     
 ## Remarks
 This tool was tested in both native and virtualized environment and in both cases over 200 bit flips were generated within 20 minutes. Both the host and guest (VMware) were running Ubuntu 16.04.02 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
