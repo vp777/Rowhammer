@@ -23,23 +23,20 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 
 First build the tool by running one of the following options:
 
-- This will exhaustively try to test all rows
-
-	
+- This will exhaustively try to test all rows:
+<pre>
     make
+</pre>
 
-
-- Similar with first one, but it try at first to identify pages that map to the same row
-
-
+- Similar with first one, but it try at first to identify pages that map to the same row:
+<pre>
     make ext
-
+</pre>
 	
-- Build both versions with increased verbosity, the executables will require root privileges (for pagemap access)
-
-
+- Build both versions with increased verbosity, the executables will require root privileges (for pagemap access):
+<pre>
     make debug
-
+</pre>
 Then run it by:
 
 	./tcrh<_ext> [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-b <test_iterations>] [-B <stress_iterations>] [-q <sample_size>] [-e <run_time>]
