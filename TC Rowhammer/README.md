@@ -23,12 +23,12 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 
 First build the tool by running one of the following options:
 
-- This will exhaustively try to test all rows:
+- This will generate an executable that will exhaustively test all the identified rows within a bank (tcrh):
 <pre>
     make
 </pre>
 
-- Similar with first one, but it try at first to identify pages that map to the same row:
+- Similar with first one, but with the added support of identifying pages within the same row (tcrh_ext):
 <pre>
     make ext
 </pre>
@@ -47,5 +47,5 @@ This tool was tested in both native and virtualized environment and in both case
 ## Notes
 The debug information (when enabled) about the DRAM mapping are targetted towards Sandy Bridge microarchitecture CPUs. If there is need for stats on a different microarchitecture, the code can be easily extended by using the implementation here: [hammertime](https://github.com/vusec/hammertime/blob/master/ramses/addr.c) <br>
 Regardless of the debugging information, the main functionality of the program should stay unaffected regardless of the microarchitecture.<br><br>
-It make use of RDTSCP for timing and the CLFLUSH for the cache eviction. In case the RDTSCP is not available, it can be replaced with RDTSC for x86 architectures that support it.
+It makes use of RDTSCP for timing and the CLFLUSH for the cache eviction. In case the RDTSCP is not available, it can be replaced with RDTSC for x86 architectures that support it.
 <br>
