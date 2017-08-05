@@ -25,10 +25,10 @@ First build the tool by running one of the following options:
 
 - This will exhaustively try to test all rows
 
-
-	make
-
 	
+    make
+
+
 - Similar with first one, but it try at first to identify pages that map to the same row
 
 
@@ -38,7 +38,7 @@ First build the tool by running one of the following options:
 - Build both versions with increased verbosity, the executables will require root privileges (for pagemap access)
 
 
-	make debug
+    make debug
 
 Then run it by:
 
