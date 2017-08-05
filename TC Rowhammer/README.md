@@ -23,20 +23,32 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 
 First build the tool by running one of the following options:
 
+- This will exhaustively try to test all rows
+
+
 	make
-    make ext #identification of pages within the same row
-	make debug #increased verbosity, requires root privileges
+
+	
+- Similar with first one, but it try at first to identify pages that map to the same row
+
+
+    make ext
+
+	
+- Build both versions with increased verbosity, the executables will require root privileges (for pagemap access)
+
+
+	make debug
 
 Then run it by:
 
 	./tcrh<_ext> [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-b <test_iterations>] [-B <stress_iterations>] [-q <sample_size>] [-e <run_time>]
     
 ## Remarks
-This tool was tested in both native and virtualized environment and in both cases over 200 bit flips were generated within 20 minutes. Both the host and guest (VMware) were running Ubuntu 16.04.02 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
+This tool was tested in both native and virtualized environment and in both cases over 200 bit flips were generated within 20 minutes. Both the host and guest (VMware) were running Ubuntu 16.04.2 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
 
 ## Notes
 The debug information (when enabled) about the DRAM mapping are targetted towards Sandy Bridge microarchitecture CPUs. If there is need for stats on a different microarchitecture, the code can be easily extended by using the implementation here: [hammertime](https://github.com/vusec/hammertime/blob/master/ramses/addr.c) <br>
 Regardless of the debugging information, the main functionality of the program should stay unaffected regardless of the microarchitecture.<br><br>
 It make use of RDTSCP for timing and the CLFLUSH for the cache eviction. In case the RDTSCP is not available, it can be replaced with RDTSC for x86 architectures that support it.
-<br><br>
-One possible optimization is after identifying the pages that map to the same bank, to try and identify which pages map to the same row. That way, by utilizing full rows, we increase both effectiveness and the efficiency of the attack, especially on microarchitectures that map multiple pages across a single row. (In Sandy Bridge there are only two pages/row)
+<br>
