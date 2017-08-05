@@ -239,6 +239,10 @@ int main(int argc, char *argv[]) {
 		case 'q': {
 				char *end = NULL;
 				SAMPLE_SIZE = strtoll(optarg, &end, 0);
+				if(SAMPLE_SIZE<2) {
+					fprintf(stderr, "Too small sample size, minimum is 4\n");
+					SAMPLE_SIZE=4;
+				}
 				break;
 			}
 		case 'b': {
@@ -269,9 +273,9 @@ int main(int argc, char *argv[]) {
 	origin = (uintptr_t) array;
 	n = sbdr(origin, array, BUFSIZE, found, PAGE_SIZE);
 
-	if((uint64_t)n*PAGE_SIZE>(uint64_t)(2.0*l3cache_size)){//a lot of pages will not be inside the cache
+	if((uint64_t)n*PAGE_SIZE>(uint64_t)(2.0*l3cache_size)){//maybe to much work that way
 		fprintf(stderr, "[!]Using eviction buffer\n");
-		evictionBuffer=(uint64_t*)malloc(l3cache_size);//evict the whole l3 cache
+		evictionBuffer=(uint64_t*)malloc(l3cache_size);//just evict the whole l3 cache
 	}
 	fprintf(stderr, "Found in bank=%zu\n", n);
 
@@ -324,8 +328,10 @@ int main(int argc, char *argv[]) {
 		signal(SIGALRM, stop_signal);
 		alarm(runTime);
 	}
+	signal(SIGINT, stop_signal);
 
 	for (size_t i = 0; i < n; i++) {
+		if (i%10==0) fflush(stdout);
 		printf("[%zu]Testing %012lx\n", i, pages[i].vaddr);
 #if DEBUG==1
 		{
