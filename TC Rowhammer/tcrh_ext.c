@@ -45,7 +45,9 @@ float THRESHOLD_MULT = 1.3;
 #define MAX(a,b) ((a)>(b)?(a):(b))
 
 struct DRAM_ROW {
+	uint64_t drid;
 	uintptr_t vaddr[PAGES_PER_ROW];
+	size_t dplen[PAGES_PER_ROW];
 	size_t size;
 	uint64_t paddr;
 	uint64_t row;
@@ -58,7 +60,7 @@ struct DRAM_ROW {
 #define BITS(n, l, r) (((n)>>(r))&MASK((l)-(r)+1))
 #define POP_BIT(n, x) ((((n)>>1)&~MASK(x))|((n)&MASK(x)))
 
-#define rdtscp_begin(t, cycles_high, cycles_low) {							\
+#define rdtscp_begin(t, cycles_high, cycles_low) do {						\
 	asm volatile ("CPUID\n\t"												\
 			"RDTSC\n\t"														\
 			"mov %%edx, %0\n\t"												\
@@ -66,16 +68,16 @@ struct DRAM_ROW {
 			"%rax", "%rbx", "%rcx", "%rdx");								\
 																			\
 	t=((uint64_t) cycles_high << 32) | cycles_low;							\
-}
+} while (0)
 
-#define rdtscp_end(t, cycles_high1, cycles_low1) {					\
+#define rdtscp_end(t, cycles_high1, cycles_low1) do {					\
 	asm volatile ("RDTSCP\n\t"										\
 			"mov %%edx, %0\n\t"										\
 			"mov %%eax, %1\n\t"										\
 			"CPUID\n\t": "=r" (cycles_high1), "=r" (cycles_low1)::	\
 			"%rax", "%rbx", "%rcx", "%rdx");						\
 	t=((uint64_t) cycles_high1 << 32) | cycles_low1;				\
-}
+} while (0)
 
 void flush(uintptr_t vaddr, size_t len) {
 	for (uintptr_t caddr = vaddr; caddr < vaddr + len; caddr += 64) {
@@ -170,9 +172,9 @@ size_t sbdr(uintptr_t oaddr, void *mem, size_t len, uintptr_t *set, size_t step)
 	for (uintptr_t buf = (uintptr_t) mem; buf < (uintptr_t) mem + CALIBRATION_RUNS * step; buf += step, i++) {
 		const uintptr_t taddr[2] = { oaddr, buf };
 		for (int j = 0; j < SAMPLE_SIZE; j++) {
-			rdtscp_begin(start, tmp1, tmp2)
+			rdtscp_begin(start, tmp1, tmp2);
 			hammer_double(taddr, MACCESS_ITERATIONS);
-			rdtscp_end(stop, tmp1, tmp2)
+			rdtscp_end(stop, tmp1, tmp2);
 			diffSamples[j] = stop - start;
 		}
 		qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -189,9 +191,9 @@ size_t sbdr(uintptr_t oaddr, void *mem, size_t len, uintptr_t *set, size_t step)
 	for (uintptr_t buf = (uintptr_t) mem; buf < (uintptr_t) mem + len; buf += step) {
 		const uintptr_t taddr[2] = { oaddr, buf };
 		for (int j = 0; j < SAMPLE_SIZE; j++) {
-			rdtscp_begin(start, tmp1, tmp2)
+			rdtscp_begin(start, tmp1, tmp2);
 			hammer_double(taddr, MACCESS_ITERATIONS);
-			rdtscp_end(stop, tmp1, tmp2)
+			rdtscp_end(stop, tmp1, tmp2);
 			diffSamples[j] = stop - start;
 		}
 		qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -211,12 +213,12 @@ size_t sr(uintptr_t oaddr, uintptr_t *cobankers, size_t offset, size_t len, uint
 
 	if(!oaddr) return 0;
 
-	//const uintptr_t taddr[2] = { oaddr, oaddr+64 };
+//	const uintptr_t taddr[2] = { oaddr, oaddr+64 };
 	for (int j = 0; j < SAMPLE_SIZE; j++) {
-		rdtscp_begin(start, tmp1, tmp2)
+		rdtscp_begin(start, tmp1, tmp2);
 		hammer_single(oaddr, MACCESS_ITERATIONS);
 		//hammer_double(taddr, MACCESS_ITERATIONS);
-		rdtscp_end(stop, tmp1, tmp2)
+		rdtscp_end(stop, tmp1, tmp2);
 		diffSamples[j] = stop - start;
 	}
 	qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -232,9 +234,9 @@ size_t sr(uintptr_t oaddr, uintptr_t *cobankers, size_t offset, size_t len, uint
 
 		const uintptr_t taddr[2] = { oaddr, cobankers[i] };
 		for (int j = 0; j < SAMPLE_SIZE; j++) {
-			rdtscp_begin(start, tmp1, tmp2)
+			rdtscp_begin(start, tmp1, tmp2);
 			hammer_double(taddr, MACCESS_ITERATIONS);
-			rdtscp_end(stop, tmp1, tmp2)
+			rdtscp_end(stop, tmp1, tmp2);
 			diffSamples[j] = stop - start;
 		}
 		qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -271,18 +273,23 @@ void stop_signal(int signal) {
 	exit(0);
 }
 
-#define FILLNFLUSH(rows, rowIndex, v, n) {					\
+#define FLUSH(rows, rowIndex, pageIndex) do {								\
+	flush(rows[rowIndex].vaddr[pageIndex],rows[rowIndex].dplen[pageIndex]);	\
+} while (0)
+
+#define FILLNFLUSH(rows, rowIndex, v) do {					\
 	for(size_t _i=0;_i<(rows)[rowIndex].size;_i++){			\
 		uintptr_t _currentPage=rows[rowIndex].vaddr[_i];	\
-		memset((void*)_currentPage, v, n);					\
-		flush(_currentPage, n);								\
+		size_t _currentPageLen=rows[rowIndex].dplen[_i];	\
+		memset((void*)_currentPage, v, _currentPageLen);	\
+		flush(_currentPage, _currentPageLen);				\
 	}														\
-}															\
+} while (0)
 
 int main(int argc, char *argv[]) {
 	uint32_t *array;
 	uintptr_t origin;
-	uintptr_t found[BUFSIZE / PAGE_SIZE];
+	uintptr_t found[BUFSIZE / ROW_GRAN];
 	uint64_t l3cache_size=sysconf(_SC_LEVEL3_CACHE_SIZE);
 	uint64_t *evictionBuffer=NULL;
 	uint64_t runTime = 0;
@@ -342,9 +349,9 @@ int main(int argc, char *argv[]) {
 	memset((void*) array, 0xff, BUFSIZE);
 
 	origin = (uintptr_t) array;
-	n = sbdr(origin, array, BUFSIZE, found, PAGE_SIZE);
+	n = sbdr(origin, array, BUFSIZE, found, ROW_GRAN);
 
-	if((uint64_t)n*PAGE_SIZE>(uint64_t)(2.0*l3cache_size)){//a lot of pages will not be inside the cache
+	if((uint64_t)n*ROW_GRAN>(uint64_t)(2.0*l3cache_size)){//a lot of pages will not be inside the cache
 		fprintf(stderr, "[!]Using eviction buffer\n");
 		evictionBuffer=(uint64_t*)malloc(l3cache_size);//evict the whole l3 cache instead
 	}
@@ -370,16 +377,22 @@ int main(int argc, char *argv[]) {
 	size_t coresidents[PAGES_PER_ROW];
 	struct DRAM_ROW rows[n];
 
+#if DEBUG==1
+	size_t mistaken_brothers=0;
+#endif
 	for(size_t i=0;i<n;i++){
 		if(!found[i]) continue;
 
+		rows[rowIndex].drid = rowIndex;
 		rows[rowIndex].vaddr[0] = found[i];
+		rows[rowIndex].dplen[0] = ROW_GRAN;
 		size_t n2=sr(found[i], found, i+1, n, coresidents);
 
 		rows[rowIndex].size=n2+1;
 
 		for(size_t j=0;j<n2;j++){
 			rows[rowIndex].vaddr[j+1]=found[coresidents[j]];
+			rows[rowIndex].dplen[j+1]=ROW_GRAN;
 			found[coresidents[j]]=0;
 			totalFound++;
 		}
@@ -388,6 +401,11 @@ int main(int argc, char *argv[]) {
 		rows[rowIndex].paddr = getPhysAddress(found[i]);
 		rows[rowIndex].row = getRow(rows[rowIndex].paddr);
 		rows[rowIndex].bank = getBank(rows[rowIndex].paddr);
+		size_t mistaken_brothers=0;
+		for(size_t j=0;j<rows[rowIndex].size;j++){
+			if(rows[rowIndex].vaddr[j]!=rows[rowIndex].row)
+				mistaken_brothers++;
+		}
 #endif
 
 		rowIndex++;
@@ -398,6 +416,7 @@ int main(int argc, char *argv[]) {
 
 #if DEBUG==1
 	{
+		fprintf(stderr, "Mistaken brothers=%zu\n", mistaken_brothers);
 		uint64_t originBank = getBank(getPhysAddress(origin));
 		size_t err = 0;
 		for (size_t i = 0; i < n; i++) {
@@ -453,11 +472,11 @@ int main(int argc, char *argv[]) {
 #endif
 
 		//prepare the first target row for hammering
-		FILLNFLUSH(rows, i, 0, PAGE_SIZE)
+		FILLNFLUSH(rows, i, 0);
 		uintptr_t dside = rows[i].vaddr[0];
 		for (int j = i + 1; j < n; j++) {
 			//prepare the other target row for hammering
-			FILLNFLUSH(rows, j, 0, PAGE_SIZE)
+			FILLNFLUSH(rows, j, 0);
 			uintptr_t uside = rows[j].vaddr[0];
 
 			const uintptr_t taddr[2] = { dside, uside };
@@ -474,7 +493,7 @@ int main(int argc, char *argv[]) {
 			}else{
 				for(size_t i = 0; i < n; i++)
 					for(size_t j=0; j < rows[i].size; j++)
-						flush(rows[i].vaddr[j], PAGE_SIZE);
+						FLUSH(rows, i, j);
 			}
 
 			flip_check_label:
@@ -487,12 +506,12 @@ int main(int argc, char *argv[]) {
 
 					int gotBitFlips=0;
 
-					for (size_t offset = 0; offset < PAGE_SIZE; offset++) {
+					for (size_t offset = 0; offset < rows[currentRow].dplen[currentPage]; offset++) {
 						uint8_t got = *(volatile uint8_t*) (rows[currentRow].vaddr[currentPage] + offset);
 
 						if (got != 0xff) {
 							if(!externalRun){
-								printf("++++++++++++++++++++\n");
+								printf("+++++[%lu]+++++++[%lu]++++++++\n", rows[i].drid, rows[j].drid);
 								hammer_double(taddr, STRESS_ITERATIONS);
 								sleep(2);
 								hammer_double(taddr, STRESS_ITERATIONS);
@@ -502,7 +521,10 @@ int main(int argc, char *argv[]) {
 								goto flip_check_label;
 							}
 
-							if(!gotBitFlips) gotBitFlips++;
+							if(!gotBitFlips) {
+								printf("Victim Row ID=%lu\n", rows[currentRow].drid);
+								gotBitFlips++;
+							}
 
 	#if DEBUG==1
 							printf("(^0x%012lx=0x%012lx,^0x%012lx=0x%012lx) Found [0x%012lx=0x%012lx] bitflip [%zu]=0x%02x (^%lu,%lu,^%lu)\n",
@@ -523,14 +545,14 @@ int main(int argc, char *argv[]) {
 						}
 					}
 					if(gotBitFlips) {
-						flush(rows[currentRow].vaddr[currentPage], PAGE_SIZE);
+						FLUSH(rows, currentRow, currentPage);
 						printf("---------------------\n");
 					}
 				}
 			}
-			FILLNFLUSH(rows, j, 0xff, PAGE_SIZE)
+			FILLNFLUSH(rows, j, 0xff);
 		}
-		FILLNFLUSH(rows, i, 0xff, PAGE_SIZE)
+		FILLNFLUSH(rows, i, 0xff);
 	}
 	return 0;
 }
