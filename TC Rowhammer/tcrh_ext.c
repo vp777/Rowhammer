@@ -403,7 +403,7 @@ int main(int argc, char *argv[]) {
 		rows[rowIndex].bank = getBank(rows[rowIndex].paddr);
 
 		for(size_t j=0;j<rows[rowIndex].size;j++){
-			if(getBank(getPhysAddress(rows[rowIndex].vaddr[j]))!=rows[rowIndex].row)
+			if(getRow(getPhysAddress(rows[rowIndex].vaddr[j]))!=rows[rowIndex].row)
 				mistaken_brothers++;
 		}
 #endif
