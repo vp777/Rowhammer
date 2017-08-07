@@ -401,9 +401,9 @@ int main(int argc, char *argv[]) {
 		rows[rowIndex].paddr = getPhysAddress(found[i]);
 		rows[rowIndex].row = getRow(rows[rowIndex].paddr);
 		rows[rowIndex].bank = getBank(rows[rowIndex].paddr);
-		size_t mistaken_brothers=0;
+
 		for(size_t j=0;j<rows[rowIndex].size;j++){
-			if(rows[rowIndex].vaddr[j]!=rows[rowIndex].row)
+			if(getBank(getPhysAddress(rows[rowIndex].vaddr[j]))!=rows[rowIndex].row)
 				mistaken_brothers++;
 		}
 #endif
