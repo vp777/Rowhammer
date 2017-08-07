@@ -60,7 +60,7 @@ struct DRAM_ROW {
 #define BITS(n, l, r) (((n)>>(r))&MASK((l)-(r)+1))
 #define POP_BIT(n, x) ((((n)>>1)&~MASK(x))|((n)&MASK(x)))
 
-#define rdtscp_begin(t, cycles_high, cycles_low) do {						\
+#define rdtscp_begin(t, cycles_high, cycles_low) {							\
 	asm volatile ("CPUID\n\t"												\
 			"RDTSC\n\t"														\
 			"mov %%edx, %0\n\t"												\
@@ -68,16 +68,16 @@ struct DRAM_ROW {
 			"%rax", "%rbx", "%rcx", "%rdx");								\
 																			\
 	t=((uint64_t) cycles_high << 32) | cycles_low;							\
-} while (0)
+}
 
-#define rdtscp_end(t, cycles_high1, cycles_low1) do {					\
+#define rdtscp_end(t, cycles_high1, cycles_low1) {					\
 	asm volatile ("RDTSCP\n\t"										\
 			"mov %%edx, %0\n\t"										\
 			"mov %%eax, %1\n\t"										\
 			"CPUID\n\t": "=r" (cycles_high1), "=r" (cycles_low1)::	\
 			"%rax", "%rbx", "%rcx", "%rdx");						\
 	t=((uint64_t) cycles_high1 << 32) | cycles_low1;				\
-} while (0)
+}
 
 void flush(uintptr_t vaddr, size_t len) {
 	for (uintptr_t caddr = vaddr; caddr < vaddr + len; caddr += 64) {
@@ -172,9 +172,9 @@ size_t sbdr(uintptr_t oaddr, void *mem, size_t len, uintptr_t *set, size_t step)
 	for (uintptr_t buf = (uintptr_t) mem; buf < (uintptr_t) mem + CALIBRATION_RUNS * step; buf += step, i++) {
 		const uintptr_t taddr[2] = { oaddr, buf };
 		for (int j = 0; j < SAMPLE_SIZE; j++) {
-			rdtscp_begin(start, tmp1, tmp2);
+			rdtscp_begin(start, tmp1, tmp2)
 			hammer_double(taddr, MACCESS_ITERATIONS);
-			rdtscp_end(stop, tmp1, tmp2);
+			rdtscp_end(stop, tmp1, tmp2)
 			diffSamples[j] = stop - start;
 		}
 		qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -191,9 +191,9 @@ size_t sbdr(uintptr_t oaddr, void *mem, size_t len, uintptr_t *set, size_t step)
 	for (uintptr_t buf = (uintptr_t) mem; buf < (uintptr_t) mem + len; buf += step) {
 		const uintptr_t taddr[2] = { oaddr, buf };
 		for (int j = 0; j < SAMPLE_SIZE; j++) {
-			rdtscp_begin(start, tmp1, tmp2);
+			rdtscp_begin(start, tmp1, tmp2)
 			hammer_double(taddr, MACCESS_ITERATIONS);
-			rdtscp_end(stop, tmp1, tmp2);
+			rdtscp_end(stop, tmp1, tmp2)
 			diffSamples[j] = stop - start;
 		}
 		qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -215,10 +215,10 @@ size_t sr(uintptr_t oaddr, uintptr_t *cobankers, size_t offset, size_t len, uint
 
 //	const uintptr_t taddr[2] = { oaddr, oaddr+64 };
 	for (int j = 0; j < SAMPLE_SIZE; j++) {
-		rdtscp_begin(start, tmp1, tmp2);
+		rdtscp_begin(start, tmp1, tmp2)
 		hammer_single(oaddr, MACCESS_ITERATIONS);
 		//hammer_double(taddr, MACCESS_ITERATIONS);
-		rdtscp_end(stop, tmp1, tmp2);
+		rdtscp_end(stop, tmp1, tmp2)
 		diffSamples[j] = stop - start;
 	}
 	qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
@@ -234,9 +234,9 @@ size_t sr(uintptr_t oaddr, uintptr_t *cobankers, size_t offset, size_t len, uint
 
 		const uintptr_t taddr[2] = { oaddr, cobankers[i] };
 		for (int j = 0; j < SAMPLE_SIZE; j++) {
-			rdtscp_begin(start, tmp1, tmp2);
+			rdtscp_begin(start, tmp1, tmp2)
 			hammer_double(taddr, MACCESS_ITERATIONS);
-			rdtscp_end(stop, tmp1, tmp2);
+			rdtscp_end(stop, tmp1, tmp2)
 			diffSamples[j] = stop - start;
 		}
 		qsort(diffSamples, SAMPLE_SIZE, sizeof(uint64_t), u64cmp);
