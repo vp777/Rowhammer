@@ -128,11 +128,12 @@ uintptr_t findContiguousRegion(void *mem, size_t len, uint64_t step) {
 		}
 
 		//try to find the beginning of the region
-		uintptr_t current=buf;
-		while(sample_pair(current, current+0x23000, 0)>threshHold /*&& sample_pair(current, current-0x1000, 0)<threshHold*/){
-			current-=0x2000;
-		}
-
+		//uintptr_t current=buf;
+		//while(sample_pair(current, current+0x23000, 0)>threshHold /*&& sample_pair(current, current-0x1000, 0)<threshHold*/){
+		//	current-=0x2000;
+		//}
+		//buf=current;
+		
 		return buf;
 	}
 }
