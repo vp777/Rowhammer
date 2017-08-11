@@ -107,11 +107,11 @@ uint64_t sample_pair(uintptr_t addr1, uintptr_t addr2, size_t v) {
 }
 
 //Sandy Bridge specific
-uintptr_t findContiguousRegion(void *mem, size_t len, uint64_t step) {
+uintptr_t findContiguousRegion(void *mem, size_t len) {
 	uint64_t threshHold = (uint64_t) (sample_pair((uintptr_t) mem, (uintptr_t) mem + 128, 0) * THRESHOLD_MULT);
 
 	fprintf(stderr, "Threshold=%lu\n", threshHold);
-	for(uintptr_t buf=(uintptr_t)mem;buf<(uintptr_t)mem+len;buf+=7*PAGE_SIZE){
+	for(uintptr_t buf=(uintptr_t)mem;buf<(uintptr_t)mem+len;buf+=7*PAGE_SIZE){//take into account the buf+7*0x22000 in bound checking
 		if(		0
 				|| sample_pair(buf, buf+7*0x22000, 0)<threshHold
 				|| sample_pair(buf, buf+6*0x22000, 0)<threshHold
@@ -205,7 +205,7 @@ int main(int argc, char *argv[]) {
 
 	buf = mmap(NULL, BUFSIZE, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS | MAP_POPULATE, -1, 0);
 	memset((void*) buf, 0xff, BUFSIZE);
-	target = findContiguousRegion(buf, BUFSIZE, 1<<20);
+	target = findContiguousRegion(buf, BUFSIZE);
 	if(!target) exit(0);
 
 	struct HugePage *hps;
