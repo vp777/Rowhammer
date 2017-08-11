@@ -9,7 +9,7 @@ This tool tries to identify big chunks in memory that are allocated in physicall
 ## Operation
 For its operation, it basically tries to predict which addresses map to the same bank but different row based on the assumption that the area in which those addresses are lying into is contiguous. Since modern systems have more than 8 banks(so the probability of randomly hitting one is at least 1/8), managing to find such pairs suggests that at least the regions between them could potentially be contiguous.
 <br><br>
-You can see how linux kernel tends to allocate memory in here:[google-rowhammer](https://github.com/google/rowhammer-test/tree/master/physmem_alloc_analysis).
+You can see how linux kernel tends to allocate memory in here: [google-rowhammer](https://github.com/google/rowhammer-test/tree/master/physmem_alloc_analysis).
 
 ## Command line arguments
 
@@ -40,5 +40,5 @@ Then run it by:
 This tool was tested in both native and virtualized environment and in some cases it was possible to generate more than 600 bit flips within less than a minute. Both the host and guest (VMware) were running Ubuntu 16.04.2 with the latest kernel version in a Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
 
 ## Notes
-The SBDR prediction values are based on the given CPU-DRAM configuration, so for different configurations those values has to be adjusted.
+The SBDR prediction values are based on the given CPU-DRAM configuration which were generated with [offsetter](https://github.com/vp777/Rowhammer/tree/master/3.TCHP%20Rowhammer/offsets), so for different configurations those values has to be adjusted.
 <br>
