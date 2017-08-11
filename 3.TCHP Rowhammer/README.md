@@ -40,5 +40,5 @@ Then run it by:
 This tool was tested in both native and virtualized environment and in some cases it was possible to generate more than 600 bit flips within less than a minute. Both the host and guest (VMware) were running Ubuntu 16.04.2 with the latest kernel version in a Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
 
 ## Notes
-The SBDR prediction values are based on the given CPU-DRAM configuration which were generated with [offsetter](https://github.com/vp777/Rowhammer/tree/master/3.TCHP%20Rowhammer/offsets), so for different configurations those values has to be adjusted.
+The SBDR prediction values are based on the given CPU-DRAM configuration, so for different configurations those values has to be adjusted. For our configuration, those values were generated with [offsetter](https://github.com/vp777/Rowhammer/tree/master/3.TCHP%20Rowhammer/offsets)
 <br>
