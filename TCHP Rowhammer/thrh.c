@@ -27,6 +27,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <string.h>
+#include "hprh.h>
 
 uint64_t BUFSIZE = (1 << 29);
 uint64_t MACCESS_ITERATIONS = 5000;
