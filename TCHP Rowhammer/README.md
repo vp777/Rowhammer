@@ -8,6 +8,8 @@ This tool tries to identify big chunks in memory that are allocated in physicall
 
 ## Operation
 For its operation, it basically tries to predict which addresses map to the same bank but different row based on the assumption that the area in which those addresses are lying into is contiguous. Since modern systems have more than 8 banks(so the probability of randomly hitting one is at least 1/8), managing to find such pairs suggests that at least the regions between them could potentially be contiguous.
+<br><br>
+You can see how linux kernel tends to allocate memory in here:[google-rowhammer](https://github.com/google/rowhammer-test/tree/master/physmem_alloc_analysis).
 
 ## Command line arguments
 
