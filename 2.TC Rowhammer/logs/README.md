@@ -5,7 +5,7 @@ The script diff.sh provides some quick stats on the difference between the vulne
 
 The logs were generated with:
 
-	./tcrh -s 16 -o vm-16mb-20min-1.log -e $((20*60))
+	./tcrh<-ext> -s 16 -o vm<-ext>-16mb-20min-1.log -e $((20*60))
 
 You can run the script with:
 
