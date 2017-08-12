@@ -29,7 +29,7 @@ You can see how linux kernel tends to allocate memory in here: [google-rowhammer
 First build the tool by running one of the following options:
 
 <pre>
-    make
+make
 </pre>
 
 Then run it by:
@@ -41,4 +41,5 @@ This tool was tested in both native and virtualized environment and in some case
 
 ## Notes
 The SBDR prediction values are based on the given CPU-DRAM configuration, so for different configurations those values has to be adjusted. For our configuration, those values were generated with [offsetter](https://github.com/vp777/Rowhammer/tree/master/3.TCHP%20Rowhammer/offsets)
-<br>
+<br><br>
+As it can be seen from the logs, proper synchronization is needed for optimized results. In this task, the techniques described in [prefetch sidechannel](https://gruss.cc/files/prefetch.pdf) could be useful.
