@@ -1,9 +1,9 @@
 # TCHP Rowhammer Tool
 
-Tool for testing the rowhammer bug, without need of special permissions (root or CAP_SYS_ADMIN) and Transparent Huge Page (THP) support in a more efficient way than [tcrh](https://github.com/vp777/Rowhammer/tree/master/TC%20Rowhammer).
+Tool for testing the rowhammer bug, without need of special permissions (root or CAP_SYS_ADMIN) and Transparent Huge Page (THP) support in a more efficient way than [tcrh](https://github.com/vp777/Rowhammer/tree/master/2.TC%20Rowhammer).
 <br><br>
-This tool tries to identify big chunks in memory that are allocated in physically contiguous space. It does that by utilizing the timing channel created when accessing different rows in the same bank ([tcrh](https://github.com/vp777/Rowhammer/tree/master/TC%20Rowhammer)). After the identification phase, that region is passed to the 
-[hprh](https://github.com/vp777/Rowhammer/tree/master/THP%20Rowhammer) for inducing the rowhammer vulnerability.
+This tool tries to identify big chunks in memory that are allocated in physically contiguous space. It does that by utilizing the timing channel created when accessing different rows in the same bank ([tcrh](https://github.com/vp777/Rowhammer/tree/master/2.TC%20Rowhammer)). After the identification phase, that region is passed to the 
+[hprh](https://github.com/vp777/Rowhammer/tree/master/1.THP%20Rowhammer) for inducing the rowhammer vulnerability.
 <br>
 
 ## Operation
