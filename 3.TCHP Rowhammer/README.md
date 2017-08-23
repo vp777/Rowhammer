@@ -7,15 +7,15 @@ This tool tries to identify big chunks in memory that are allocated in physicall
 <br>
 
 ## Operation
-For its operation, it basically tries to predict which addresses map to the same bank but different row based on the assumption that the area in which those addresses are lying into is contiguous. Since modern systems have more than 8 banks(so the probability of randomly hitting one is at least 1/8), managing to find such pairs suggests that at least the regions between them could potentially be contiguous.
+For its operation, it basically tries to predict which addresses map to the same bank but different row based on the assumption that the area in which those addresses are lying into is contiguous. Since modern systems have more than 8 banks(so the probability of randomly hitting one is at least 1/8, or even lower), managing to find such pairs suggests that at least the regions between them could potentially be contiguous.
 <br><br>
-You can see how linux kernel tends to allocate memory in here: [google-rowhammer](https://github.com/google/rowhammer-test/tree/master/physmem_alloc_analysis).
+You can see how linux kernel tends to allocate memory in [google-rowhammer](https://github.com/google/rowhammer-test/tree/master/physmem_alloc_analysis).
 
 ## Command line arguments
 
 <pre>
   -s SIZE               allocate initially SIZE MB buffer (default is 512 MB)
-  -o output_file,       path to the output file, default is stdout
+  -o OUTPUT_FILE,       path to the output file, default is stdout
   -m THRESHOLD_MULT     the THRESHOLD_MULT creates the threshold for SBDR and non-SBDR pairs (default is 1.3)
   -i ITERATIONS         gather timings for SBDR pairs after ITERATIONS iterations (default is 5000)
   -b TEST_ITERATIONS    initially hammer the rows for TEST_ITERATIONS iterations (default is 550000)
