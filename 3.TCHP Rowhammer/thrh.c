@@ -50,16 +50,6 @@ float THRESHOLD_MULT = 1.3;
 #define VFILL_DEFAULT 0xff //0x6d
 #define TFILL_DEFAULT 0x00//0x92
 
-struct DRAM_ROW {
-	uint64_t drid;
-	uintptr_t vaddr[PAGES_PER_ROW];
-	size_t dplen[PAGES_PER_ROW];
-	size_t size;
-	uint64_t paddr;
-	uint64_t row;
-	uint64_t bank;
-};
-
 #define rdtscp_begin(t, cycles_high, cycles_low) {							\
 	asm volatile ("CPUID\n\t"												\
 			"RDTSC\n\t"														\
@@ -222,11 +212,12 @@ int main(int argc, char *argv[]) {
 
 	targetbuf = (void*) target;
 
-	memset(buf, ho.tfill, ho.bufSize);
-	flush((uintptr_t) buf, ho.bufSize);
+	memset(targetbuf, ho.tfill, ho.bufSize);
+	flush((uintptr_t) targetbuf, ho.bufSize);
 
 	size_t totalHPages = setupHugePages(&hps, 0, ho.bufSize, &ho.dramParams);
 	for (size_t i = 0; i < hps->numberOfEntries; i++)
 		hps->hentry[i].virtAddr += (uintptr_t)targetbuf;
+	
 	runTest(hps, totalHPages, &ho);
 }
