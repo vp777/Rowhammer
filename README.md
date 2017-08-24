@@ -19,3 +19,6 @@ The provided tools are cabable of inducing the Rowhammer vulnerability without s
 <br>
 <br>
 If there is interest of just exploring and testing for the vulnerability, I would suggest to check out [hammertime](https://github.com/vusec/hammertime/). They provide various features for experimenting with the vulnerability with support for various microarchitectures and configurations.
+<br>
+<br>
+Initial research on Rowhammer vulnerability: [https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf](https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf)
