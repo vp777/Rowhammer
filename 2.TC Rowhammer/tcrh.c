@@ -368,11 +368,11 @@ int main(int argc, char *argv[]) {
 			const uintptr_t taddr[2] = { dside, uside };
 			hammer_double(taddr, TEST_ITERATIONS);
 
-			//Now flush the l3 cache and check if we have any victims
 			int externalRun=0;
 
+			//Now flush the cache and check if we have any victims
 			if(evictionBuffer){
-				uint64_t sum=0;
+				uint64_t sum=0;//for inclusive l3 cache
 				for(size_t i=0; i < l3cache_size/sizeof(uint64_t); i++){
 					sum+=evictionBuffer[i];
 				}
@@ -389,7 +389,7 @@ int main(int argc, char *argv[]) {
 					continue;
 
 				for (size_t offset = 0; offset < PAGE_SIZE; offset++) {
-					uint8_t got = *(volatile uint8_t*) (pages[pageO].vaddr + offset);
+					volatile uint8_t got = *(volatile uint8_t*) (pages[pageO].vaddr + offset);
 
 					if (got != 0xff) {
 						if(!externalRun){
