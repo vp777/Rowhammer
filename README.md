@@ -1,6 +1,6 @@
 # Rowhammer Attack
 
-This repository contains the first tools released for testing the Rowhammer vulnerability in userspace.
+This repository contains the implementation of various tools that are used to induce the Rowhammer vulnerability in userspace (without depending on pagemap interface)
 
 ## 0. Extensions
 Patches for [Transparent Huge Pages (THP)](https://www.kernel.org/doc/Documentation/vm/transhuge.txt) support in [hammertime](https://github.com/vusec/hammertime/) and [rowhammer-test](https://github.com/google/rowhammer-test/).
