@@ -102,15 +102,15 @@ uintptr_t findContiguousRegion(void *mem, size_t len) {
 
 	fprintf(stderr, "Threshold=%lu\n", threshHold);
 	for(uintptr_t buf=(uintptr_t)mem;buf<(uintptr_t)mem+len;buf+=7*PAGE_SIZE){//take into account the buf+7*0x22000+.... in bound checking
-		if(		0
-				|| sample_pair(buf, buf+7*0x22000+0xee000, 0)<threshHold //with this we span about 2mb, if no results try putting it in comments
-				|| sample_pair(buf, buf+7*0x22000, 0)<threshHold
-				|| sample_pair(buf, buf+6*0x22000, 0)<threshHold
-				|| sample_pair(buf, buf+5*0x22000, 0)<threshHold
-				|| sample_pair(buf, buf+4*0x22000, 0)<threshHold
-				|| sample_pair(buf, buf+1*0x22000, 0)<threshHold
-				|| sample_pair(buf, buf+2*0x22000, 0)<threshHold
-				){
+		if(	0
+			|| sample_pair(buf, buf+7*0x22000+0xee000, 0)<threshHold //with this we span about 2mb, if no results try putting it in comments
+			|| sample_pair(buf, buf+7*0x22000, 0)<threshHold
+			|| sample_pair(buf, buf+6*0x22000, 0)<threshHold
+			|| sample_pair(buf, buf+5*0x22000, 0)<threshHold
+			|| sample_pair(buf, buf+4*0x22000, 0)<threshHold
+			|| sample_pair(buf, buf+1*0x22000, 0)<threshHold
+			|| sample_pair(buf, buf+2*0x22000, 0)<threshHold
+		){
 			continue;
 		}
 
