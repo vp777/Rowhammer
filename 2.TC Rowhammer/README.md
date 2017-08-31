@@ -10,7 +10,7 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 
 <pre>
   -s SIZE               allocate SIZE MB buffer for testing (default is 16 MB)
-  -o output_file,       path to the output file, default is stdout
+  -o OUTPUT_FILE,       path to the output file, default is stdout
   -m THRESHOLD_MULT     the THRESHOLD_MULT creates the threshold for SBDR and non-SBDR pairs (default is 1.3)
   -i ITERATIONS         gather timings for SBDR pairs after ITERATIONS iterations (default is 5000)
   -b TEST_ITERATIONS    initially hammer the rows for TEST_ITERATIONS iterations (default is 550000)
@@ -46,6 +46,6 @@ This tool was tested in both native and virtualized environment and in both case
 
 ## Notes
 The debug information (when enabled) about the DRAM mapping are targetted towards Sandy Bridge microarchitecture CPUs. If there is need for stats on a different microarchitecture, the code can be easily extended by using the implementation here: [hammertime](https://github.com/vusec/hammertime/blob/master/ramses/addr.c) <br>
-Regardless of the debugging information, the main functionality of the program should stay unaffected regardless of the microarchitecture.<br><br>
+Regardless of the debugging information, the main functionality of the program should more or less remain unaffected regardless of the microarchitecture.<br><br>
 It makes use of RDTSCP for timing and the CLFLUSH for the cache eviction. In case the RDTSCP is not available, it can be replaced with RDTSC for x86 architectures that support it.
 <br>

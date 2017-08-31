@@ -13,7 +13,7 @@ It is parametrised and it should run for most of the configurations that are bas
 
 <pre>
   -s SIZE               allocate SIZE MB buffer for testing (default is 2 MB)
-  -o output_file,       path to the output file, default is stdout
+  -o OUTPUT_FILE,       path to the output file, default is stdout
   -c CHANNELS           number of active channels in motherboard (default is 1)
   -d DIMMS              number of dimms per channel, 0=disabled,1=enabled (default is 1)
   -r RANKS              number of ranks per dimm (default is 2)
@@ -35,4 +35,4 @@ Then run it by:
 
 	./hprh [-s <buffer_size>] [-o <output_file>] [-c <active_channels>] [-d <dimms>] [-r <ranks_number>] [-m <rank_mirroring>][-t <target_pattern>] [-v <victim_pattern>] [-e <runtime>]
     
-By default, it should be able to identify vulnerable modules in a single channel, single dimm, dual rank configurations.
+By default, it should be able to identify vulnerable DRAM modules in a single channel, single dimm, dual rank configurations.

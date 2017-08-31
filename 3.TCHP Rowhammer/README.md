@@ -26,7 +26,7 @@ You can see how linux kernel tends to allocate memory in [google-rowhammer](http
 
 ## Usage
 
-First build the tool by running one of the following options:
+First build the tool by running:
 
 <pre>
 make
