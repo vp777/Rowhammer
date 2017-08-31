@@ -490,6 +490,7 @@ int main(int argc, char *argv[]) {
 				for(size_t i=0; i < l3cache_size/sizeof(uint64_t); i++){
 					sum+=evictionBuffer[i];
 				}
+				if(sum==-1) fprintf(stderr, "Useful loop\n");
 			}else{
 				for(size_t i = 0; i < n; i++)
 					for(size_t j=0; j < rows[i].size; j++)
