@@ -9,7 +9,7 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 ## Command line arguments
 
 <pre>
-  -s SIZE               allocate SIZE MB buffer for testing (default is 16 MB)
+  -s SIZE               allocate SIZE MB buffer for testing (default is 128 MB)
   -o OUTPUT_FILE,       path to the output file, default is stdout
   -m THRESHOLD_MULT     the THRESHOLD_MULT creates the threshold for SBDR and non-SBDR pairs (default is 1.3)
   -i ITERATIONS         gather timings for SBDR pairs after ITERATIONS iterations (default is 5000)

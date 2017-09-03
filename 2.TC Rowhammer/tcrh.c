@@ -28,7 +28,7 @@
 #include <math.h>
 #include <string.h>
 
-uint64_t BUFSIZE = (1 << 24);
+uint64_t BUFSIZE = (1 << 27);
 uint64_t MACCESS_ITERATIONS = 5000;
 uint64_t SAMPLE_SIZE = 8;
 uint64_t CALIBRATION_RUNS = 64;
