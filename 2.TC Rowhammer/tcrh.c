@@ -36,6 +36,8 @@ uint64_t TEST_ITERATIONS = 550000;
 uint64_t STRESS_ITERATIONS = 1700000;
 float THRESHOLD_MULT = 1.3;
 
+#define T_RADIUS 6 //How far away from the current "row" to hammer
+
 #define PAGE_SIZE 0x1000
 #define ROW_GRAN 0x1000 //optional: on sandy bridge, the whole page resides in a single row.
 
@@ -359,7 +361,7 @@ int main(int argc, char *argv[]) {
 		uintptr_t dside = pages[i].vaddr;
 		memset((void*) dside, 0x00, PAGE_SIZE);
 		flush(dside, PAGE_SIZE);
-		for (int j = i + 1; j < n; j++) {
+		for (int j = i + 1; j < MIN(i+1+T_RADIUS, n); j++) {
 			//prepare the other target row for hammering
 			uintptr_t uside = pages[j].vaddr;
 			memset((void*) uside, 0x00, PAGE_SIZE);
