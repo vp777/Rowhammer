@@ -9,7 +9,7 @@ Patches for [Transparent Huge Pages (THP)](https://www.kernel.org/doc/Documentat
 Standalone tool that is based on Transparent Huge Pages (THP) feature, a feature that is by default enabled in various Linux distributions
 
 ## 2. TC Rowhammer (tcrh)
-tcrh utilizes a [timing channel](https://people.inf.ethz.ch/omutlu/pub/mph_usenix_security07.pdf) to identify possible targets that are mapped within the same bank. After the identification phase it exhaustively tests this limited set of addresses for the rowhammer vulnerability. It does not depend on the THP feature but is significantly slower than hprh.
+tcrh utilizes a [timing channel](https://people.inf.ethz.ch/omutlu/pub/mph_usenix_security07.pdf) to identify possible targets that are mapped within the same bank. After the identification phase it exhaustively tests rows within a given range for the rowhammer vulnerability. It does not depend on the THP feature but is significantly more inefficient than hprh.
 
 ## 3. TCHP Rowhammer (thrh)
 Finally, thrh makes use of the timing channel used in tcrh to identify regions in memory that are physically contiguous. When a region is identified, is passed to hprh to induce the vulnerability. This tool is based on the Linux kernel allocation patterns and it has the potential to work as efficiently as hprh without the need of THP.

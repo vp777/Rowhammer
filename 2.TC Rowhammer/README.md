@@ -23,7 +23,7 @@ It is a more targetted approach to rowhammer when no physical mapping informatio
 
 First build the tool by running one of the following options:
 
-- This will generate an executable that will exhaustively test all the identified rows within a bank (tcrh):
+- This will generate an executable that will exhaustively test all the identified rows within a bank (tcrh) and are within the the defined range:
 <pre>
     make
 </pre>
@@ -42,7 +42,7 @@ Then run it by:
 	./tcrh<_ext> [-s <buffer_size>] [-o <output_file>] [-m <threshold_mult>] [-i <trial_iterations>] [-b <test_iterations>] [-B <stress_iterations>] [-q <sample_size>] [-e <run_time>]
     
 ## Remarks
-This tool was tested in both native and virtualized environment and in both cases over 200 bit flips were generated within 20 minutes. Both the host and guest (VMware) were running Ubuntu 16.04.2 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
+This tool was tested in both native and virtualized environment and in both cases over 200 bit flips were generated within 20 minutes. Both the host and guest (VMware Workstation) were running Ubuntu 16.04.2 with the latest kernel version in a 4-core Sandy Bridge CPU with a single DIMM all running with the default configurations and THP disabled.
 
 ## Notes
 The debug information (when enabled) about the DRAM mapping are targetted towards Sandy Bridge microarchitecture CPUs. If there is need for stats on a different microarchitecture, the code can be easily extended by using the implementation here: [hammertime](https://github.com/vusec/hammertime/blob/master/ramses/addr.c) <br>
