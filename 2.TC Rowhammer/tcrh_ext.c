@@ -36,8 +36,8 @@ uint64_t TEST_ITERATIONS = 550000;
 uint64_t STRESS_ITERATIONS = 1700000;
 float THRESHOLD_MULT = 1.3;
 
-#define T_RADIUS 6 //How far away from the current "row" to hammer
-#define B_RADIUS 2 //How far away from the current "row" to search for SBSR
+#define T_RADIUS 6 //How far away from the current "row" to hammer, set it to -1 to check every row
+#define B_RADIUS 2 //How far away from the current "row" to search for SBSR, set it to -1 to check every row
 
 #define PAGE_SIZE 0x1000
 #define ROW_GRAN 0x1000 //optional: on sandy bridge, the whole page resides in a single row.
@@ -231,7 +231,7 @@ size_t sr(uintptr_t oaddr, uintptr_t *cobankers, size_t offset, size_t len, uint
 	uint64_t threshHold = (uint64_t)(hit_time*1.3);
 	size_t found = 0;
 
-	for (size_t i=offset; i<MIN(offset+B_RADIUS, len); i++) {
+	for (size_t i=offset; i<MIN(offset+(uint32_t)B_RADIUS, len); i++) {
 
 		if(!cobankers[i]) continue;
 
@@ -477,7 +477,7 @@ int main(int argc, char *argv[]) {
 		//prepare the first target row for hammering
 		FILLNFLUSH(rows, i, 0);
 		uintptr_t dside = rows[i].vaddr[0];
-		for (int j = i + 1; j < MIN(i+1+T_RADIUS, n); j++) {
+		for (int j = i + 1; j < MIN(i+1+(uint32_t)T_RADIUS, n); j++) {
 			//prepare the other target row for hammering
 			FILLNFLUSH(rows, j, 0);
 			uintptr_t uside = rows[j].vaddr[0];
